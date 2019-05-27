@@ -1,0 +1,18 @@
+.button {
+    padding: 1rem 3rem;
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(255,255,255, 0.15);
+    box-shadow: 0 0 14px 0 rgba(255,255,255,0.0);
+    border-radius: 0.25rem;
+    transition: all 400ms ease-in-out;
+    &:hover {
+        border: 1px solid rgba(255,255,255, 0);
+        box-shadow: 0 0 14px 0 rgba(255,255,255,0.20);
+    }
+    &:active {
+        box-shadow: 0 0 8px 0 rgba(255,255,255,0.15);
+        opacity: 0.5;
+    }
+}
