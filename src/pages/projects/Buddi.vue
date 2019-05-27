@@ -98,7 +98,11 @@
   </layout>
 </template>
 <script>
-export default {};
+export default {
+metaInfo: {
+    title: 'Hello, world!'
+  }
+};
 </script>
 <style lang="scss" scoped>
 
