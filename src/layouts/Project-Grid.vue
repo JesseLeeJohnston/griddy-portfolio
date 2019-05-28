@@ -9,7 +9,7 @@
       </div>
       <p class="text-small uppercase project-details">
         Project Details
-        <i data-feather="arrow-right" stroke-width="3" width="10px" height="10px"></i>
+        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
       </p>
     </g-link>
     <g-link to="/projects/motto" class="project-tile motto-bg background-zoom">
@@ -22,7 +22,7 @@
       </div>
       <p class="text-small uppercase project-details">
         Project Details
-        <i data-feather="arrow-right" stroke-width="3" width="10px" height="10px"></i>
+        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
       </p>
     </g-link>
     <g-link to="/projects/cully" class="project-tile cully-bg background-zoom">
@@ -34,7 +34,7 @@
       </div>
       <p class="text-small uppercase project-details">
         Project Details
-        <i data-feather="arrow-right" stroke-width="3" width="10px" height="10px"></i>
+        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
       </p>
     </g-link>
     <g-link to="/projects/rt-dashboard" class="project-tile rt-dashboard-bg background-zoom">
@@ -46,7 +46,7 @@
       </div>
       <p class="text-small uppercase project-details">
         Project Details
-        <i data-feather="arrow-right" stroke-width="3" width="10px" height="10px"></i>
+        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
       </p>
     </g-link>
     <g-link to="/projects/rt-surveys" class="project-tile rt-survey-bg background-zoom">
@@ -58,7 +58,7 @@
       </div>
       <p class="text-small uppercase project-details">
         Project Details
-        <i data-feather="arrow-right" stroke-width="3" width="10px" height="10px"></i>
+        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
       </p>
     </g-link>
   </div>

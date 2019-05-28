@@ -5,15 +5,15 @@
       <div class="columns-2">
         <div>
           <h4>Project Summary</h4>
-          <p>As a designer, I’ve always felt that people would look down on me if I had cannabis product in my portfolio. It’s been an industry I’ve always seen potential in but until recently it's always suffered from poor design. In April of 2017, I signed up to the local Vancouver Protohack event. I met Ryan at the event and learned about his project Buddi we decided to work together and actually wound up winning the event.</p>
-          <p>As of right now our product is being tested by a select few dispensaries in Vancouver and many different cannabis producers in British Columbia and Alberta.</p>
+          <p>As one of the founding members of the Buddi team I've had to wear many different hats. Not only have I been leading the design and development of the platform but I've also been part of building the team, helping clients get started, demoing the application, working trade-shows among what seems like a million others things you do to push a startup forward.</p>
+          <p>The Buddi platform is made up of a few different components. The first is the retail application, this is a tablet app that is used by customers inside of legal cannabis stores. The second is the retail admin area which is used by the staff and managers to control their retail application. The last is our producer platform, this is where producers can update their content, run advertising and review analytic dashboards. In this portfolio entry I'll primarily be talking about the retail application.</p>
         </div>
         <div>
           <h4>My Role</h4>
           <p>Product Design, Product Management, Front-End Development</p>
 
           <h4>The Team</h4>
-          <p>CEO, 1 Senior Developer</p>
+          <p>CEO (Sales), 1 Remote Developer, 1 Remote DevOps Engineer</p>
 
           <h4>Tools I Used</h4>
           <p>Sketch, InvisionApp, FramerX, VS Code, HTML, CSS, Javascript, VueJS, Laravel, GitHub</p>
@@ -34,14 +34,14 @@
 
 
         <p class="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam non impedit! Ad cumque, eligendi, itaque, dolorem odio rerum officiis quis tempora ducimus et ut eveniet dolor suscipit. Itaque, asperiores.
+          Our main retail application is a VueJS Progressive Web App. This provided us the flexibility of working with web technologies but also being able to run the application as a full screen application on Apple and Android devices. We've also kept it as a separate static site which connects to the backend via API calls, this makes updating the front-end extremely quick and easy. 
         </p>
 
 
 
       <div class="columns-2 margin-top-lg margin-bottom-lg">
         <div class="vertical-center">
-          <h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic accusantium voluptatibus iure modi quas quaerat animi, perferendis.</h3>
+          <h3>A static application the connects to an API service provides us a lot of flexibility in terms of making rapid UI updates.</h3>
         </div>
         <g-image src="../../assets/images/projects/buddi/ipad-1.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
@@ -53,37 +53,36 @@
           <g-image src="../../assets/images/projects/buddi/user-research-2.jpg" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-      <p class="lead margin-bottom-md margin-top-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eaque illo fugiat, quod maxime quaerat pariatur modi harum iusto minus laboriosam asperiores doloribus fuga veritatis quasi iste architecto perferendis! Optio!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minima eligendi quibusdam, beatae nihil deleniti praesentium dolor, incidunt laudantium voluptas dolorem earum. Reprehenderit quod sed iure architecto. Iusto, architecto quibusdam.</p>
+      <p class="lead margin-bottom-lg margin-top-md">My process throughout the creation of our product is to build features based on feedback but only build the MVP of that feature. Once it's released we then start collecting feedback from retail clients, customer testing sessions and analytical tools such as HotJar and Google Analytics. Then I can decide how I need to move forward in prioritizing the enhancements and working with the development team to get them ready.</p>
 
    
-     <div class="columns-3 margin-top-lg">
+     <div class="columns-3 margin-top-lg" style="padding: 3rem 0;">
         <g-image src="../../assets/images/projects/buddi/tablet-1.png" class="fluid rounded-corners" alt=""></g-image>
         <g-image src="../../assets/images/projects/buddi/tablet-2.png" class="fluid rounded-corners scale" alt=""></g-image>
         <g-image src="../../assets/images/projects/buddi/tablet-3.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
       <p class="lead margin-bottom-md margin-top-lg">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, illo quibusdam. Voluptatem molestiae repudiandae delectus id voluptatibus, doloribus rem tempora non corporis eligendi, sed placeat ratione molestias aliquid quidem beatae.
+        <span class="is-bold">Ease of use for retailers and their customers:</span> The retail application had to be easy to use and easy to setup. Since our clients were all over Canada it had to be for us to provide setup instructions remotely. We also needed to make sure that we could integrate with the leading point of sale systems within the cannabis industry. These integrations allowed us to pull their inventory (clients don't have to worry about managing their menu) and display the correct products based on their current stock. It also allowed us to send customer orders to the POS systems so that a staff member could easily full-fill the order. 
+        </p>
+<p class="lead margin-bottom-md">
+<span class="is-bold">Managing accounts and adding new ones:</span> Since we're just a small team and as of this writing it's only 3 of us plus 1 remote developer we needed it to be a simple process to add/setup new retailer accounts. I made sure our on-boarding could be done by anyone and would only take a few minutes to set up an account. Currently when we onboard new clients we can have accounts setup in less than 15 minutes even with a full integration to their point of sale system.
       </p>
 
        <div class="columns-2 margin-top-lg margin-bottom-lg">
         <div class="vertical-center">
-          <h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic accusantium voluptatibus iure modi quas quaerat animi, perferendis.</h3>
+          <h3>Our application is being used all across Canada in legal recreational cannabis stores.</h3>
         </div>
         <g-image src="../../assets/images/projects/buddi/media.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-        <div class="social-grid">
+        <div class="social-grid margin-bottom-lg">
             <g-image src="../../assets/images/projects/buddi/insta-1.png" class="fluid rounded-corners item-1" alt=""></g-image>
             <g-image src="../../assets/images/projects/buddi/insta-2.png" class="fluid rounded-corners item-2" alt=""></g-image>
         </div>
 
 
 
-      <p class="lead margin-bottom-md margin-top-md">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi qui consequuntur, rem et repellat exercitationem earum rerum voluptatum architecto aliquid sit id eos maxime tempore magnam voluptate nostrum dignissimos illo?
-      </p>
 
 
         <h2 class="text-center">This is just the beginning, there will be more to come.</h2>
@@ -105,15 +104,16 @@ metaInfo: {
 };
 </script>
 <style lang="scss" scoped>
-
     .intro-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
-        grid-template-rows: 15rem 15rem;
+        grid-template-rows: 15rem 15rem 15rem 15rem;
         grid-template-areas:
-        "main main logo store-1"
-        "main main logo store-2";
+        "main main"
+        "main main"
+        "logo store-1"
+        "logo store-2";
         >.item-1 {
             grid-area: main;
         }
@@ -143,8 +143,29 @@ metaInfo: {
         }
     }
 
-
-
+@media (min-width: 620px) {
+    .intro-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        grid-template-rows: 15rem 15rem;
+        grid-template-areas:
+        "main main logo store-1"
+        "main main logo store-2";
+        >.item-1 {
+            grid-area: main;
+        }
+        >.item-2 {
+            grid-area: logo;
+        }
+        >.item-3 {
+            grid-area: store-1;
+        }
+        >.item-4 {
+            grid-area: store-2;
+        }
+    }
+}
 
   .intro-paragraph {
     padding-top: 15rem;

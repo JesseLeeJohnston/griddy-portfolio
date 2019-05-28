@@ -33,9 +33,15 @@
         </div>
 
     <div class="channel-links">
-      <a href="https://www.linkedin.com/in/jesseleejohnston/" target="_blank"><i data-feather="linkedin" stroke-width="1"></i></a>
-      <a href="https://www.instagram.com/jesseleejohnston/" target="_blank"><i data-feather="instagram" stroke-width="1"></i></a>
-      <a href="https://github.com/JesseLeeJohnston" target="_blank"><i data-feather="github" stroke-width="1"></i></a>
+      <a href="https://www.linkedin.com/in/jesseleejohnston/" target="_blank">
+        <img src="../assets/images/icons/linkedin.svg" alt="">
+      </a>
+      <a href="https://www.instagram.com/jesseleejohnston/" target="_blank">
+        <img src="../assets/images/icons/instagram.svg" alt="">
+      </a>
+      <a href="https://github.com/JesseLeeJohnston" target="_blank">
+        <img src="../assets/images/icons/github.svg" alt="">
+      </a>
     </div>
   </nav>
 
@@ -111,7 +117,7 @@ export default {
   left: 0;
   right: 0;
   top: 0;
-  background-color: rgba(0,0,0,0);
+  background-image: linear-gradient(180deg, #081014 0%, rgba(0,0,0,0.00) 100%);
   .inner {
     display: flex;
     justify-content: space-between;
