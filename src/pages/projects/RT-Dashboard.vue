@@ -41,7 +41,12 @@
 </template>
 <script>
 export default {
-    
+metaInfo: {
+    title: 'ResponseTek Data Vizualization UX/UI Design',
+    meta: [
+      { name: 'author', content: 'Jesse Johnston' }
+    ]
+} 
 }
 </script>
 <style lang="scss" scoped>

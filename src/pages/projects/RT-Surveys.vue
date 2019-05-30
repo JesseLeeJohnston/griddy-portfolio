@@ -42,7 +42,12 @@
 </template>
 <script>
 export default {
-    
+  metaInfo: {
+    title: 'ResponseTek Voice of Customer Survey UX/UI Design',
+    meta: [
+      { name: 'author', content: 'Jesse Johnston' }
+    ]
+  }
 }
 </script>
 <style lang="scss" scoped>

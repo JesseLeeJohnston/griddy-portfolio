@@ -73,19 +73,26 @@
           </div>
         </li>
       </ul>
-
-      <div class="text-center">
+      <!-- TODO: Add resume file -->
+      <!-- <div class="text-center">
         <g-link to="/" class="button">
           Download My Resume <i data-feather="download-cloud" stroke-width="1" width="16px" height="16px"></i>
         </g-link>
-      </div>
+      </div> -->
     </div>
   </div>
 
   </layout>
 </template>
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: 'About Jesse Johnston a Vancouver Based UX/UI Product Designer',
+    meta: [
+      { name: 'author', content: 'Jesse Johnston' }
+    ]
+  }  
+};
 </script>
 <style lang="scss" scoped>
 

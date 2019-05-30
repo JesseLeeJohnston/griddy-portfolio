@@ -5,8 +5,8 @@
       <div class="columns-2">
         <div>
           <h4>Project Summary</h4>
-          <p>As one of the founding members of the Buddi team I've had to wear many different hats. Not only have I been leading the design and development of the platform but I've also been part of building the team, helping clients get started, demoing the application, working trade-shows among what seems like a million others things you do to push a startup forward.</p>
-          <p>The Buddi platform is made up of a few different components. The first is the retail application, this is a tablet app that is used by customers inside of legal cannabis stores. The second is the retail admin area which is used by the staff and managers to control their retail application. The last is our producer platform, this is where producers can update their content, run advertising and review analytic dashboards. In this portfolio entry I'll primarily be talking about the retail application.</p>
+          <p>As one of the founding members of the Buddi team, I've had to wear many different hats. Not only have I been leading the design and development of the platform but I've also been part of building the team, helping clients get started, demoing the application, working trade-shows among what seems like a million others things you do to push a startup forward.</p>
+          <p>The Buddi platform is made up of a few different components. The first is the retail application, this is a tablet app that is used by customers inside of legal cannabis stores. The second is the retail admin area which is used by the staff and managers to control their retail application. The last is our producer platform, this is where producers can update their content, run advertising and review analytic dashboards. In this portfolio entry, I'll primarily be talking about the retail application.</p>
         </div>
         <div>
           <h4>My Role</h4>
@@ -34,7 +34,7 @@
 
 
         <p class="lead">
-          Our main retail application is a VueJS Progressive Web App. This provided us the flexibility of working with web technologies but also being able to run the application as a full screen application on Apple and Android devices. We've also kept it as a separate static site which connects to the backend via API calls, this makes updating the front-end extremely quick and easy. 
+          Our main retail application is a VueJs Progressive Web App. This provided us the flexibility of working with web technologies but also being able to run the application as a full-screen application on Apple and Android devices. We've also kept it as a separate static site which connects to the backend via API calls, this makes updating the front-end extremely quick and easy.
         </p>
 
 
@@ -63,10 +63,10 @@
       </div>
 
       <p class="lead margin-bottom-md margin-top-lg">
-        <span class="is-bold">Ease of use for retailers and their customers:</span> The retail application had to be easy to use and easy to setup. Since our clients were all over Canada it had to be for us to provide setup instructions remotely. We also needed to make sure that we could integrate with the leading point of sale systems within the cannabis industry. These integrations allowed us to pull their inventory (clients don't have to worry about managing their menu) and display the correct products based on their current stock. It also allowed us to send customer orders to the POS systems so that a staff member could easily full-fill the order. 
+        <span class="is-bold">Ease of use for retailers and their customers:</span> The retail application had to be easy to use and easy to set up. Since our clients were all over Canada it had to be for us to provide setup instructions remotely. We also needed to make sure that we could integrate with the leading point of sale systems within the cannabis industry. These integrations allowed us to pull their inventory (clients don't have to worry about managing their menu) and display the correct products based on their current stock. It also allowed us to send customer orders to the POS systems so that a staff member could easily full-fill the order.
         </p>
 <p class="lead margin-bottom-md">
-<span class="is-bold">Managing accounts and adding new ones:</span> Since we're just a small team and as of this writing it's only 3 of us plus 1 remote developer we needed it to be a simple process to add/setup new retailer accounts. I made sure our on-boarding could be done by anyone and would only take a few minutes to set up an account. Currently when we onboard new clients we can have accounts setup in less than 15 minutes even with a full integration to their point of sale system.
+<span class="is-bold">Managing accounts and adding new ones:</span> Since we're just a small team and as of this writing it's only 3 of us plus 1 remote developer we needed it to be a simple process to add/setup new retailer accounts. I made sure our onboarding could be done by anyone and would only take a few minutes to set up an account. Currently when we onboard new clients we can have accounts set up in less than 15 minutes even with full integration to their point of sale system.
       </p>
 
        <div class="columns-2 margin-top-lg margin-bottom-lg">
@@ -98,8 +98,11 @@
 </template>
 <script>
 export default {
-metaInfo: {
-    title: 'Hello, world!'
+  metaInfo: {
+    title: 'Buddi Retail Cannabis Application UX/UI Product Design',
+    meta: [
+      { name: 'author', content: 'Jesse Johnston' }
+    ]
   }
 };
 </script>

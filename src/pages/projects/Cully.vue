@@ -99,7 +99,14 @@
   </layout>
 </template>
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: 'Cully Chatbot UX/UI Design',
+    meta: [
+      { name: 'author', content: 'Jesse Johnston' }
+    ]
+  }
+};
 </script>
 <style lang="scss" scoped>
 </style>
