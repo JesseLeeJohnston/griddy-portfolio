@@ -7,7 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
     "feather-icons": "^4.21.0",
     "gridsome": "^0.6.0",
     "normalize.css": "^8.0.1"
