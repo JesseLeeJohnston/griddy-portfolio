@@ -8,10 +8,12 @@ module.exports = {
   siteName: 'Jesse Johnston Vancouver Product & UX Design',
   plugins: [
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: 'gridsome-plugin-gtm',
       options: {
-        id: 'UA-XXXXXXXXX-X'
+        id: 'GTM-M4CXDR',
+        enabled: true,
+        debug: true
       }
-    }    
+    }
   ]
 }
