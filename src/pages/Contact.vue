@@ -3,23 +3,45 @@
  <div class="container">
      <h2 class="text-center margin-bottom-xs">Contact me</h2>
     <div class="contact-panel">
-    <form form name="contact" method="POST" data-netlify="true">
+
+
+
+
+<form 
+  name="contact"
+  method="post"
+  v-on:submit.prevent="handleSubmit"
+  action="/success/"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+>
+  <input type="hidden" name="form-name" value="contact" />
+  <p hidden>
+    <label>
+      Don’t fill this out: <input name="bot-field" />
+    </label>
+  </p>
+
+
     <div class="form-control">
-        <label for="">Name</label>
-        <input type="text" name="name" placeholder="Mr. Jinx" autofocus>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name">
     </div>
     <div class="form-control">
-        <label for="">Email</label>
-        <input type="email" name="email" placeholder="cats@catsmania.com">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email">
     </div>
     <div class="form-control">
-        <label for="">Message</label>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
+        <label for="message">Message</label>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people." v-model="formData.message"></textarea>
     </div>
     <div class="form-control text-right">
-      <button type="submit" value="Send Message" class="button reversed">Submit</button>
+      <button type="submit" class="button reversed">Submit form</button>
     </div>
-    </form>
+</form>
+
+
+
     </div>
 </div>
   </layout>
@@ -31,7 +53,33 @@ export default {
     meta: [
       { name: 'author', content: 'Jesse Johnston' }
     ]
-  }  
+  },
+  data() {
+  return {
+    formData: {},
+  }
+},
+
+methods: {
+  encode(data) {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&')
+  },
+  handleSubmit(e) {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: this.encode({
+        'form-name': e.target.getAttribute('name'),
+        ...this.formData,
+      }),
+    })
+    .then(() => this.$router.push('/'))
+    .catch(error => alert(error))
+  }
+}
+
 };
 </script>
 <style lang="scss" scoped>
