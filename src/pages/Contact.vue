@@ -75,7 +75,7 @@ methods: {
         ...this.formData,
       }),
     })
-    .then(() => this.$router.push('/'))
+    .then(() => this.$router.push('/success'))
     .catch(error => alert(error))
   }
 }
