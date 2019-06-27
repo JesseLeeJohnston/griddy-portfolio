@@ -6,18 +6,18 @@
     <form form name="contact" method="POST" data-netlify="true">
     <div class="form-control">
         <label for="">Name</label>
-        <input type="text" placeholder="Mr. Jinx" autofocus>
+        <input type="text" name="name" placeholder="Mr. Jinx" autofocus>
     </div>
     <div class="form-control">
         <label for="">Email</label>
-        <input type="text" placeholder="cats@catsmania.com">
+        <input type="email" name="email" placeholder="cats@catsmania.com">
     </div>
     <div class="form-control">
         <label for="">Message</label>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
     </div>
     <div class="form-control text-right">
-      <button type="submit" class="button reversed">Submit</button>
+      <button type="submit" value="Send Message" class="button reversed">Submit</button>
     </div>
     </form>
     </div>
