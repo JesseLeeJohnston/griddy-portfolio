@@ -26,11 +26,10 @@
           <h3>About</h3>
         </g-link>
      
-        <div class="contact-section">
-          <h5>Contact Me</h5>
-          <p class="text-muted">604 209 4377</p>
-          <p class="text-muted">jesseleejohnston@gmail.com</p>
-        </div>
+        <g-link v-on:click.native="showNav = false" to="/contact">
+          <h3>Contact Me</h3>
+        </g-link>
+
 
     <div class="channel-links">
       <a href="https://www.linkedin.com/in/jesseleejohnston/" target="_blank">
@@ -173,6 +172,8 @@ export default {
       flex-direction: column;
       border-top: 1px solid rgba(255,255,255,0.08);
       border-bottom: 1px solid rgba(255,255,255,0.08);
+      background-color: rgba(255,255,255,0.8);
+      color: #081014; 
       h5 {
         margin: 0;
         margin-bottom: .5rem;
