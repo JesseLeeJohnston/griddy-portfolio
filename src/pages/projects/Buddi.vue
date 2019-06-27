@@ -41,7 +41,7 @@
 
       <div class="columns-2 margin-top-lg margin-bottom-lg">
         <div class="vertical-center">
-          <h3>A static application the connects to an API service provides us a lot of flexibility in terms of making rapid UI updates.</h3>
+          <h3>Buddi for Retail is a static application that connects to an API. This setup provides us a lot of flexibility in terms of making rapid UI updates.</h3>
         </div>
         <g-image src="../../assets/images/projects/buddi/ipad-1.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
