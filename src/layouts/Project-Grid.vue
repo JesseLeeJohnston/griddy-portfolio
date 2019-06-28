@@ -15,10 +15,11 @@
     <g-link to="/projects/motto" class="project-tile motto-bg background-zoom">
       <div>
         <h3>Motto 20</h3>
+        
         <p class="text-small is-marginless">
-          <span class="text-small is-bold">
-            2018 //</span> A cryptocurrency dashboard experience.
+          <span class="text-small is-bold">2018 //</span> A Chatbot Channel to help Movie Theatres Sell Tickets.
         </p>
+        
       </div>
       <p class="text-small uppercase project-details">
         Project Details

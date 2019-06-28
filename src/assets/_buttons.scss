@@ -1,40 +1,38 @@
 .button {
-    padding: 1rem 3rem;
-    font-family: 'Arvo', serif;
-    border: 1px solid rgba(255,255,255, 0.15);
-    box-shadow: 0 0 14px 0 rgba(255,255,255,0.0);
-    border-radius: 0.25rem;
-    transition: all 400ms ease-in-out;
-    cursor: pointer;
-    &.primary {
-        background-color: rgba(0,0,0,0);
-        color: #ffffff;
-        &:hover {
-            border: 1px solid rgba(255,255,255, 0);
-            box-shadow: 0 0 14px 0 rgba(255,255,255,0.20);
-        }
-        &:active {
-            box-shadow: 0 0 8px 0 rgba(255,255,255,0.15);
-            opacity: 0.5;
-        }
+  padding: 1rem 3rem;
+  font-family: "Arvo", serif;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 14px 0 rgba(255, 255, 255, 0);
+  border-radius: 0.25rem;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  &.primary {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0);
+      box-shadow: 0 0 14px 0 rgba(255, 255, 255, 0.2);
     }
-    &.reversed {
-        background-color: #081014;
-        color: #ffffff;
-        &:hover {
-            background-color: lighten(#081014, 10%);
-            border: 1px solid rgba(255,255,255, 0);
-            box-shadow: 0 0 14px 0 rgba(255,255,255,0.20);
-        }
-        &:active {
-            background-color: lighten(#081014, 5%);
-            box-shadow: 0 0 8px 0 rgba(255,255,255,0.15);
-        }
-        &:focus {
-            background-color: lighten(#081014, 5%);
-            box-shadow: 0 0 8px 0 rgba(255,255,255,0.15);
-        }
+    &:active {
+      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.15);
+      opacity: 0.5;
     }
+  }
+  &.reversed {
+    background-color: #081014;
+    color: #ffffff;
+    &:hover {
+      background-color: lighten(#081014, 10%);
+      border: 1px solid rgba(255, 255, 255, 0);
+      box-shadow: 0 0 14px 0 rgba(255, 255, 255, 0.2);
+    }
+    &:active {
+      background-color: lighten(#081014, 5%);
+      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.15);
+    }
+    &:focus {
+      background-color: lighten(#081014, 5%);
+      box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.15);
+    }
+  }
 }
-
-

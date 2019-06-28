@@ -2,9 +2,9 @@
 <layout>
 <div class="container">
   <div class="hero-text">
-    <p class="lead">Hi, I’m Jesse. I design and develop web applications that end customers find easy to use.<br/>I believe rapid prototyping and feedback cycles help achieve the best end product.</p>
+    <p>Hi, I’m Jesse. I design and develop web applications that end customers find easy to use.<br/>I believe rapid prototyping and feedback cycles help achieve the best end product.</p>
   </div>
-    <project-grid/> 
+    <project-grid/>
 </div>
 </layout>
 </template>

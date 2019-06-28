@@ -2,57 +2,54 @@
   <layout>
  <div class="container">
      <h2 class="text-center margin-bottom-xs">Contact me</h2>
-    <div class="contact-panel">
-
-
-
-
-<form 
-  name="contact"
-  method="post"
-  v-on:submit.prevent="handleSubmit"
-  action="/success/"
-  data-netlify="true"
-  data-netlify-honeypot="bot-field"
->
-  <input type="hidden" name="form-name" value="contact" />
-  <p hidden>
-    <label>
-      Don’t fill this out: <input name="bot-field" />
-    </label>
-  </p>
-
-
-    <div class="form-control">
-        <label for="name">Name</label>
-        <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name">
+    <Panel>
+      <form 
+        name="contact"
+        method="post"
+        v-on:submit.prevent="handleSubmit"
+        action="/success/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
+          <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name">
+          </div>
+          <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email">
+          </div>
+          <div class="form-control">
+              <label for="message">Message</label>
+              <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people." v-model="formData.message"></textarea>
+          </div>
+          <div class="form-control text-right">
+            <button type="submit" class="button reversed">Submit form</button>
+          </div>
+      </form>
+    </Panel>
     </div>
-    <div class="form-control">
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email">
-    </div>
-    <div class="form-control">
-        <label for="message">Message</label>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people." v-model="formData.message"></textarea>
-    </div>
-    <div class="form-control text-right">
-      <button type="submit" class="button reversed">Submit form</button>
-    </div>
-</form>
 
-
-
-    </div>
-</div>
   </layout>
 </template>
 <script>
+import Panel from '@/components/Panel.vue';
+
 export default {
   metaInfo: {
     title: 'Contact Me',
     meta: [
       { name: 'author', content: 'Jesse Johnston' }
     ]
+  },
+  components: {
+      Panel
   },
   data() {
   return {
@@ -113,13 +110,6 @@ input::placeholder, textarea::placeholder {
 textarea{
      resize:none;
 }
- .contact-panel {
-   background-color: #ffffff; 
-   border-radius: 0.25rem; 
-   padding: 1rem; 
-   max-width: 500px; 
-   margin: 0 auto; 
-   color: #081014;
- }
+
 
 </style>

@@ -1,0 +1,67 @@
+// TYPOGRAPHY HELPERS
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.is-bold {
+  font-weight: 700;
+  font-size: inherit;
+}
+.text-small {
+  font-size: 0.7rem;
+  line-height: 1.6rem;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text-muted {
+  opacity: 0.8;
+}
+.space-between-text {
+  display: flex;
+  justify-content: space-between;
+}
+// SPACING
+.margin-top-sm {
+  margin-top: 2rem;
+}
+.margin-top-md {
+  margin-top: 4rem;
+}
+.margin-top-lg {
+  margin-top: 6rem;
+}
+.margin-bottom-xs {
+  margin-bottom: 1rem;
+}
+.margin-bottom-sm {
+  margin-bottom: 2rem;
+}
+.margin-bottom-md {
+  margin-bottom: 4rem;
+}
+.margin-bottom-lg {
+  margin-bottom: 6rem;
+}
+.is-marginless {
+  margin: 0px;
+}
+// MISC
+.rounded-corners {
+  border-radius: 0.5rem;
+}
+.hidden-sm {
+  display: none;
+}
+@media (min-width: 620px) {
+  .hidden-sm {
+    display: block;
+  }
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

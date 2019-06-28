@@ -28,7 +28,7 @@
       </div>
 
       <div class="intro-paragraph">
-        <p class="lead">
+        <p>
           My primary design focus throughout this project was to make a mobile friendly trading platform that felt familiar. Most crypto trading platforms really appeal to the end user that's very knowledgeable about cryptocurrencies and trading, I wanted to make this a bit more accessible and appeal to an audience that might be a bit more informed about stock market trading. To do this I spent lots of time reviewing and researching various stock trading platforms.
         </p>
       </div>
@@ -38,17 +38,17 @@
           <g-image src="../../assets/images/projects/motto/logo-samples-2.jpg" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-      <p class="lead margin-bottom-md margin-top-md">By no means am I a logo designer and thank you to Google Fonts, you made it easier on me. Since this project was built from just a concept the founders had I built the design framework from the ground up, including the logo.</p>
+      <p class="margin-bottom-md margin-top-md">By no means am I a logo designer and thank you to Google Fonts, you made it easier on me. Since this project was built from just a concept the founders had I built the design framework from the ground up, including the logo.</p>
 
       <div class="motto-wf-background">
         <h3>Prototyping with Sketch's native feature.</h3>
       </div>
 
-      <p class="lead margin-top-md">
+      <p class="margin-top-md">
         At this time Sketch had just released their prototyping feature. This gave me the chance to test it out and demo the initial prototypes to the team. Normally I use InvisionApp for prototyping wireframes but I was very impressed with the native Sketch Prototyping.
       </p>
 
-      <p class="lead margin-bottom-md">        
+      <p class="margin-bottom-md">        
         I wasn't working with clear requirements when designing the platform, I had to work with the founders and figure out the features they wanted from a high level, then work on the details throughout my prototyping process.
       </p>
 
@@ -58,7 +58,7 @@
         <g-image src="../../assets/images/projects/motto/wireframe-3.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-      <p class="lead margin-bottom-md margin-top-md">
+      <p class="margin-bottom-md margin-top-md">
         Once we had established a direction and nailed down all of the functionality we were going to include in our prototype, it was time to add some paint!
       </p>
 
@@ -69,7 +69,7 @@
         <g-image src="../../assets/images/projects/motto/style-tiles.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-      <p class="lead margin-bottom-md margin-top-md">
+      <p class="margin-bottom-md margin-top-md">
 I decided to use style tiles instead of creating a full design system as we only had two weeks to complete the project and I wasn't sure how much time I would be spending in development. Given our team size, there also wasn't too much of a risk in someone going off the rails and adding in a feature without following our design system.</p>
 
       <div class="columns-3 staggered-images">
@@ -78,7 +78,7 @@ I decided to use style tiles instead of creating a full design system as we only
         <g-image src="../../assets/images/projects/motto/trade-3.png" class="fluid rounded-corners third" alt=""></g-image>
       </div>
 
-      <div class="lead margin-bottom-md margin-top-md"></div>
+      <div class="margin-bottom-md margin-top-md"></div>
 
       <div class="columns-3">
         <div class="column-span-2">
@@ -87,7 +87,7 @@ I decided to use style tiles instead of creating a full design system as we only
         <g-image src="../../assets/images/projects/motto/mobile-1.png" class="fluid rounded-corners" alt=""></g-image>
       </div>
 
-      <p class="lead margin-bottom-md margin-top-md">
+      <p class="margin-bottom-md margin-top-md">
         Overall I'm happy with how this project turned out and I'm proud of what we accomplished in a short amount of time. In addition to that this project introduced me to the wonderful world of VueJs.</p>
 
     </div>
