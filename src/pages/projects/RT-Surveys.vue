@@ -1,21 +1,21 @@
 <template>
     <layout>
         <div class="container">
-            <h2>ResponseTek Surveys</h2>
-            <div class="columns-2">
+            <h1 class="margin-bottom-sm">ResponseTek Surveys</h1>
+            <div class="columns-2 margin-bottom-md">
                 <div>
-                    <h4>Project Summary</h4>
+                    <h2>Project Summary</h2>
                     <p>People get tired of filling surveys out for companies. There is no joy for a customer filling in responses to a survey. We needed to build a modern design that worked on all types of devices while still maintaining the integrity of the various question types.</p>
                     <p>We also had to build a framework that could be used by a design centric fashion company but also a multinational telecommunications company. The design had to be versatile.</p>                    
                 </div>
                 <div>
-                    <h4>My Role</h4>
+                    <h2>My Role</h2>
                     <p>Product Design, Front-End Design/Development</p>
 
-                    <h4>The Team</h4>
+                    <h2>The Team</h2>
                     <p>Product Manager, 2 Senior Developers, 1 Intermediate Developer, 2 Junior Developers</p>
 
-                    <h4>Tools I Used</h4>
+                    <h2>Tools I Used</h2>
                     <p>Sketch, Invision, Atom, HTML, CSS, JavaScript</p>
                 </div>
             </div>
@@ -45,9 +45,10 @@ export default {
   metaInfo: {
     title: 'ResponseTek Voice of Customer Survey UX/UI Design',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'A UX/UI design case study for the ResponseTek platforms\' customer surveys.' }
     ]
-  }
+  },
 }
 </script>
 <style lang="scss" scoped>

@@ -1,20 +1,20 @@
 <template>
   <layout>
     <div class="container">
-      <h2 class="margin-bottom-sm">Motto</h2>
+      <h1 class="margin-bottom-sm">Motto</h1>
       <div class="columns-2">
         <div>
-          <h4>Project Summary</h4>
+          <h2>Project Summary</h2>
           <p>The Motto project is another type of cryptocurrency exchange that I had the opportunity to design & develop a functional prototype for. While working with the Cully team we were given the task of working on this new exchange platform and we had to have a functional prototype within 2 weeks.</p>
         </div>
         <div>
-          <h4>My Role</h4>
+          <h2>My Role</h2>
           <p>Project Design, Front-End Design, Product Management</p>
 
-          <h4>The Team</h4>
+          <h2>The Team</h2>
           <p>1 Senior Developer, 1 Intermediate Developer</p>
 
-          <h4>Tools I Used</h4>
+          <h2>Tools I Used</h2>
           <p>Sketch (and Sketch prototyping), GitHub, VueJs, VS Code</p>
         </div>
       </div>
@@ -100,7 +100,8 @@ export default {
   metaInfo: {
     title: 'Motto Cryptocurrency UX/UI design',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'Product design case study for a cryptocurrency dashboard called Motto Wealth.' }
     ]
   }
 };

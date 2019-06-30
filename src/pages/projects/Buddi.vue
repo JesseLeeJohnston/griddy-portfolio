@@ -1,20 +1,20 @@
 <template>
   <layout>
     <div class="container">
-      <h2 class="margin-bottom-sm">Buddi</h2>
+      <h1 class="margin-bottom-sm">Buddi</h1>
       <div class="columns-2">
         <div>
-          <h4>Project Summary</h4>
+          <h2>Project Summary</h2>
           <p>I'm a founding member of the Buddi team. Over the past year I've been leading the design and development of the platform with a super talented remote team. In addition to my primary duties I've also been part of building the team, helping clients get started, demoing the application, working trade-shows among what seems like a million others things you do to push a startup forward.</p>
         </div>
         <div>
-          <h4>My Role</h4>
+          <h2>My Role</h2>
           <p>Product Design, Product Management, Front-End Development</p>
 
-          <h4>The Team</h4>
+          <h2>The Team</h2>
           <p>CEO (Sales), 1 Remote Developer, 1 Remote DevOps Engineer</p>
 
-          <h4>Tools I Used</h4>
+          <h2>Tools I Used</h2>
           <p>Sketch, InvisionApp, FramerX, VS Code, HTML, CSS, Javascript, VueJS, Laravel, GitHub</p>
         </div>
       </div>
@@ -100,9 +100,11 @@ export default {
   metaInfo: {
     title: 'Buddi Retail Cannabis Application UX/UI Product Design',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'Product design for a retail cannabis application. The application is a PWA kiosk style app that allows customers to learn about products and make a purchase.' }
     ]
   }
+
 };
 </script>
 <style lang="scss" scoped>
