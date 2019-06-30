@@ -1,20 +1,20 @@
 <template>
     <layout>
         <div class="container">
-            <h2>ResponseTek Dashboard</h2>
-            <div class="columns-2">
+            <h1 class="margin-bottom-sm">ResponseTek Dashboard</h1>
+            <div class="columns-2 margin-bottom-md">
                 <div>
-                    <h4>Project Summary</h4>
+                    <h2>Project Summary</h2>
                     <p>The ResponseTek dashboard needed to be redesigned. Some key aspects that I needed to focus on improving were the way filtering works and the visual look of the data we were presenting. We also had massive amounts of data that we needed to find ways of presenting to our users.</p>                    
                 </div>
                 <div>
-                    <h4>My Role</h4>
+                    <h2>My Role</h2>
                     <p>Product Design, User Research, Persona Development</p>
 
-                    <h4>The Team</h4>
+                    <h2>The Team</h2>
                     <p>Product Manager, 2 Senior Developers, 1 Intermediate Developer, 2 Junior Developers</p>
 
-                    <h4>Tools I Used</h4>
+                    <h2>Tools I Used</h2>
                     <p>Sketch, Invision, Atom, Flinto, HTML, CSS</p>
                 </div>
             </div>
@@ -41,12 +41,13 @@
 </template>
 <script>
 export default {
-metaInfo: {
+  metaInfo: {
     title: 'ResponseTek Data Vizualization UX/UI Design',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'A UX/UI design case study featuring dashboard design and data visualizations.' }
     ]
-} 
+  }
 }
 </script>
 <style lang="scss" scoped>

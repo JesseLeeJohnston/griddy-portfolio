@@ -43,9 +43,10 @@ import Panel from '@/components/Panel.vue';
 
 export default {
   metaInfo: {
-    title: 'Contact Me',
+    title: 'Contact',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'Looking for a product designer? Contact Jesse Johnston to see if it\'s a good fit.' }
     ]
   },
   components: {

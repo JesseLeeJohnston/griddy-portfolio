@@ -2,7 +2,7 @@
   <div class="project-grid">
     <g-link to="/projects/buddi" class="column-span-2 project-tile buddi-bg background-zoom">
       <div>
-        <h3>Buddi</h3>
+        <h2>Buddi</h2>
         <p class="text-small is-marginless">
           <span class="text-small is-bold">2019 //</span> An express shopping and product information kiosk.
         </p>
@@ -14,7 +14,7 @@
     </g-link>
     <g-link to="/projects/motto" class="project-tile motto-bg background-zoom">
       <div>
-        <h3>Motto 20</h3>
+        <h2>Motto 20</h2>
         
         <p class="text-small is-marginless">
           <span class="text-small is-bold">2018 //</span> A Chatbot Channel to help Movie Theatres Sell Tickets.
@@ -28,7 +28,7 @@
     </g-link>
     <g-link to="/projects/cully" class="project-tile cully-bg background-zoom">
       <div>
-        <h3>Cully Movie Bot</h3>
+        <h2>Cully Movie Bot</h2>
         <p class="text-small is-marginless">
           <span class="text-small is-bold">2018 //</span> A Chatbot Channel to help Movie Theatres Sell Tickets.
         </p>
@@ -40,7 +40,7 @@
     </g-link>
     <g-link to="/projects/rt-dashboard" class="project-tile rt-dashboard-bg background-zoom">
       <div>
-        <h3>ResponseTek Dashboard</h3>
+        <h2>ResponseTek Dashboard</h2>
         <p class="text-small is-marginless">
           <span class="text-small is-bold">2016 //</span> A voice of customer analytics dashboard.
         </p>
@@ -52,7 +52,7 @@
     </g-link>
     <g-link to="/projects/rt-surveys" class="project-tile rt-survey-bg background-zoom">
       <div>
-        <h3>ResponseTek Surveys</h3>
+        <h2>ResponseTek Surveys</h2>
         <p class="text-small is-marginless">
           <span class="text-small is-bold">2016 //</span> A voice of customer program survey.
         </p>

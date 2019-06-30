@@ -1,21 +1,21 @@
 <template>
   <layout>
     <div class="container">
-      <h2 class="margin-bottom-sm">Cully: Facebook Messenger Movie Bot</h2>
+      <h1 class="margin-bottom-sm">Cully: Facebook Messenger Movie Bot</h1>
       <div class="columns-2">
         <div>
-          <h4>Project Summary</h4>
+          <h2>Project Summary</h2>
           <p>The Cully project is a government funded innovation project for us to create a product that uses newer technology to innovate. I joined the project in the early stages at that time we were making a chatbot that recommended events to people based on their interests. The first release of the chatbot was specifically for finding interesting events in your city (beta only had Toronto and Vancouver). This gave us some experience with launching a bot on Facebook Messenger and getting some initial usability and product feedback. It also helped me define what was working and not working in my design process.</p>
           <p>Once we got our first chatbot out of the door we began to pivot our focus to the movie theatre industry. We saw an opportunity to help simplify the ticket buying process and provide an easier guided experience for moviegoers.</p>
         </div>
         <div>
-          <h4>My Role</h4>
+          <h2>My Role</h2>
           <p>Product Design, Product Management</p>
 
-          <h4>The Team</h4>
+          <h2>The Team</h2>
           <p>1 Senior Developer, 1 Intermediate Developer</p>
 
-          <h4>Tools I Used</h4>
+          <h2>Tools I Used</h2>
           <p>Sketch, Sketch Plugin: User Flows, InvisionApp, GitHub, Dialogflow, ChatFuel</p>
         </div>
       </div>
@@ -102,9 +102,11 @@ export default {
   metaInfo: {
     title: 'Cully Chatbot UX/UI Design',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'Conversational design for a Facebook Messenger chatbot that allows customers to buy movie tickets.' }
     ]
   }
+
 };
 </script>
 <style lang="scss" scoped>

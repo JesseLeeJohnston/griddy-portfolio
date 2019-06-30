@@ -1,101 +1,91 @@
 <template>
   <layout>
+    <div class="container">
 
- <div class="container">
-   <div class="text-center">
+        <div class="text-center">
+        <g-image src="@/assets/images/Jesse-Headshot.jpg" class="fluid profile"></g-image>
+        <h2>Hi, I'm Jesse!</h2>
+        </div>
+        <p>I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team.</p>
+        <p>In my current practice, I work in sprints using lean methodology, I'm constantly listening to our users' needs and taking that feedback to create informed iterations on the next version of our product.</p>
+        <p>In my spare time, I really enjoy learning new technologies and tools. I also enjoy binge watching awesome TV shows, taking walks in the city and laughing.</p>
 
-      <g-image src="@/assets/images/Jesse-Headshot.jpg" class="fluid profile"></g-image>
-      <h2>Hi, I'm Jesse!</h2>
-      <p class="lead">
-        I didn’t develop the first vaccine, or create Ave Maria, however I always strive for more knowledge and experience. Now, I am a product designer residing in beautiful Vancouver, Canada. With a background in creative advertising and web development, I’ve boosted and merged the skills by having the opportunity to design a software that is used by Rogers, T-Mobile, and Vodaphone.
-      </p>
-      <p class="lead">In my spare time away from the office I like to try new restaurants and brews. I love hanging out with my wife and bike riding along the beautiful Vancouver seawall.</p>
-
-   </div>
-
-
-    <div style="margin-top: 4rem;">
-      <h2 class="text-center">My Experience</h2>
-
-      <ul class="timeline">
-        <!-- Item 1 -->
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <h3 class="flag">Buddi</h3>
+      <div class="margin-top-md">
+        <h2 class="text-center">My Experience</h2>
+        <ul class="timeline">
+          <!-- Item 1 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <h3 class="flag">Buddi</h3>
+              </div>
+              <div class="time-wrapper">2018 - Present</div>
+              <div class="desc text-muted text-small">Co-founder VP of Product & Design</div>
             </div>
-            <div class="time-wrapper">2018 - Present</div>
-            <div class="desc text-muted text-small">Co-founder VP of Product & Design</div>
-          </div>
-        </li>
-
-        <!-- Item 2 -->
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <h3 class="flag">Cully</h3>
+          </li>
+          <!-- Item 2 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <h3 class="flag">Cully</h3>
+              </div>
+              <div class="time-wrapper">2017 - 2018</div>
+              <div class="desc text-muted text-small">Product Design Lead</div>
             </div>
-            <div class="time-wrapper">2017 - 2018</div>
-            <div class="desc text-muted text-small">Product Design Lead</div>
-          </div>
-        </li>
-
-        <!-- Item 3 -->
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <h3 class="flag">ResponseTek</h3>
+          </li>
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <h3 class="flag">ResponseTek</h3>
+              </div>
+              <div class="time-wrapper">2014 - 2017</div>
+              <div class="desc text-muted text-small">User Experience Designer</div>
             </div>
-            <div class="time-wrapper">2014 - 2017</div>
-            <div class="desc text-muted text-small">User Experience Designer</div>
-          </div>
-        </li>
-
-        <!-- Item 3 -->
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <h3 class="flag">Brandspank</h3>
+          </li>
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <h3 class="flag">Brandspank</h3>
+              </div>
+              <div class="time-wrapper">2009 - 2014</div>
+              <div class="desc text-muted text-small">Digital Strategy</div>
             </div>
-            <div class="time-wrapper">2009 - 2014</div>
-            <div class="desc text-muted text-small">Digital Strategy</div>
-          </div>
-        </li>
-
-        <!-- Item 3 -->
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <h3 class="flag">Seneca College</h3>
+          </li>
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <h3 class="flag">Seneca College</h3>
+              </div>
+              <div class="time-wrapper">2007 - 2009</div>
+              <div class="desc text-muted text-small">Creative Advertising Diploma</div>
             </div>
-            <div class="time-wrapper">2007 - 2009</div>
-            <div class="desc text-muted text-small">Creative Advertising Diploma</div>
-          </div>
-        </li>
-      </ul>
-      <!-- TODO: Add resume file -->
-      <!-- <div class="text-center">
+          </li>
+        </ul>
+        <!-- TODO: Add resume file -->
+        <!-- <div class="text-center">
         <g-link to="/" class="button">
           Download My Resume <i data-feather="download-cloud" stroke-width="1" width="16px" height="16px"></i>
         </g-link>
-      </div> -->
+        </div>-->
+      </div>
     </div>
-  </div>
-
   </layout>
 </template>
 <script>
 export default {
   metaInfo: {
-    title: 'About Jesse Johnston a Vancouver Based UX/UI Product Designer',
+    title: 'About Jesse',
     meta: [
-      { name: 'author', content: 'Jesse Johnston' }
+      { name: 'author', content: 'Jesse Johnston' },
+      { key: 'description', name: 'description', content: 'I\'m a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it\'s important to adapt my toolset to the project I\'m currently working on and the specific needs of that team.' }
     ]
-  }  
+  },
 };
 </script>
 <style lang="scss" scoped>
-
 .profile {
   max-width: 12rem;
   border-radius: 50%;
