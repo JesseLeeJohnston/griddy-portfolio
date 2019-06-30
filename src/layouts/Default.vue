@@ -3,7 +3,7 @@
     <Navigation/>
 
     <transition name="fade" appear>
-      <main class="background-img">
+      <main>
         <slot/>
       </main>
     </transition>
