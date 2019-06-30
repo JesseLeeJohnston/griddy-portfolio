@@ -7,8 +7,8 @@
         <h2>Hi, I'm Jesse!</h2>
         </div>
         <p>I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team.</p>
-        <p>In my current practice, I work in sprints using lean methodology, I'm constantly listening to our users' needs and taking that feedback to create informed iterations on the next version of our product.</p>
-        <p>In my spare time, I really enjoy learning new technologies and tools. I also enjoy binge watching awesome TV shows, taking walks in the city and laughing.</p>
+        <p>In my current practice, I work in sprints using lean methodology, I'm constantly listening to our users' needs and using that feedback to create informed iterations on the next version of our product.</p>
+        <p>In my spare time, I really enjoy learning new technologies and tools, binge watching awesome TV shows and staying active.</p>
 
       <div class="margin-top-md">
         <h2 class="text-center">My Experience</h2>
