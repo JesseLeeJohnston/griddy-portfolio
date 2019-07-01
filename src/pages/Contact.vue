@@ -19,11 +19,11 @@
         </p>
           <div class="form-control">
               <label for="name">Name</label>
-              <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name">
+              <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name" required>
           </div>
           <div class="form-control">
               <label for="email">Email</label>
-              <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email">
+              <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email" required>
           </div>
           <div class="form-control">
               <label for="message">Message</label>
