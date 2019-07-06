@@ -43,12 +43,17 @@ export default {
 </script>
 <style lang="scss">
 .logo {
-  max-height: 4rem;
+  max-height: 2.5rem;
+  @media (min-width: 620px) {
+      max-height: 4rem;
+  }
 }
+
+
 .icon {
   transform: translate(0%, 0%);
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
   opacity: 0.8;
   transition: 0.5s;
@@ -58,8 +63,8 @@ export default {
   }
 }
 .hamburger {
-  width: 40px;
-  height: 4px;
+  width: 30px;
+  height: 2px;
   background-color: var(--primary-brand);
   position: absolute;
   top: 50%;
@@ -72,8 +77,8 @@ export default {
 .hamburger:after {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 4px;
+  width: 40px;
+  height: 2px;
   background-color: var(--primary-brand);
   transition: 0.5s;
   border-radius: 0.25rem;
@@ -97,6 +102,23 @@ export default {
   transform: rotate(135deg);
 }
 
+  @media (min-width: 620px) {
+.icon {
+  width: 80px;
+  height: 80px;
+}
+.hamburger {
+  width: 40px;
+  height: 4px;
+}
+.hamburger:before,
+.hamburger:after {
+  width: 50px;
+  height: 4px;
+}
+  }
+
+
 .navbar {
   z-index: 900;
   position: fixed;
@@ -110,16 +132,22 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 90px;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
+    @media (min-width: 620px) {
+      height: 100px;
+    }
   }
 }
 .nav-overlay {
   display: grid;
   z-index: 300;
-  grid-template-rows: 100px 1fr 1fr 1fr 100px;
+  grid-template-rows: 90px 1fr 1fr 1fr 100px;
+  @media (min-width: 620px) {
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+  }
   height: 100vh;
   position: fixed;
   top: -100%;
