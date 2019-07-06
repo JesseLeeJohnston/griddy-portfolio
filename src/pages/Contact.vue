@@ -106,7 +106,7 @@ input::placeholder, textarea::placeholder {
 
 .form-control {
     display: block;
-    margin: 1rem 0;
+    margin: 1.4rem 0;
 }
 textarea{
      resize:none;

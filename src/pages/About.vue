@@ -65,11 +65,11 @@
           </li>
         </ul>
         <!-- TODO: Add resume file -->
-        <!-- <div class="text-center">
-        <g-link to="/" class="button">
+        <div class="text-center">
+        <g-link href="https://drive.google.com/open?id=1UDoEpMk3lIo8iwOOyxvxBX7llBxy4x8U" target="_blank"  class="button primary">
           Download My Resume <i data-feather="download-cloud" stroke-width="1" width="16px" height="16px"></i>
         </g-link>
-        </div>-->
+        </div>
       </div>
     </div>
   </layout>
