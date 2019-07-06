@@ -1,5 +1,5 @@
 <template>
-    <g-link :to="link" class="project-tile background-zoom" :class="background">
+    <g-link :to="link" class="project-tile" :class="background">
       <div>
         <h2>{{ title }}</h2>
         <p class="text-small is-marginless">
@@ -21,19 +21,22 @@ export default {
 .project-tile {
   background-color: #081014;
   background-repeat: no-repeat;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 14px 0 rgba(245, 166, 166, 0);
   min-height: 300px;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: background-size 500ms ease-in-out;
+  transition:
+    transform 500ms ease-in-out,
+    /* background-size 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99), */
+    background-position 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
+  box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30);
   background-size: 100%;
   padding: 1rem;
   &:hover {
-    box-shadow: 0 0 14px 0 rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: scale(0.98);
+    /* background-size: 100%; */
+    background-position: 50% 55%;
     .project-details {
       transform: translateY(0px);
       opacity: 1;
@@ -45,21 +48,6 @@ export default {
     opacity: 0;
     transform: translateY(3px);
     margin: 0 0 0 auto;
-  }
-}
-.background-zoom {
-  background-size: cover;
-}
-@media (min-width: 1000px) {
-  .background-zoom {
-    background-size: 101%;
-    background-position: 50% 50%;
-    transition: background-size 3700ms cubic-bezier(0.17, 0.67, 0.62, 0.99),
-      background-position 3700ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
-    &:hover {
-      background-size: 120%;
-      background-position: 50% 55%;
-    }
   }
 }
 .cully-bg {
@@ -77,6 +65,10 @@ export default {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("../assets/images/main-tiles/buddi.jpg");
+    background-size: cover;
+    &:hover {
+      background-size: cover;
+    }
 }
 .buddi-bg {
   background-image: linear-gradient(
@@ -85,6 +77,12 @@ export default {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("../assets/images/main-tiles/buddi-1x1.jpg");
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 500ms;
+  background-size: cover;
+}
+.buddi-bg:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
 }
 .rt-dashboard-bg {
   background-image: linear-gradient(

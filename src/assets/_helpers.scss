@@ -65,3 +65,12 @@
   justify-content: center;
   align-items: center;
 }
+.shadow-lvl-1 {
+  box-shadow: var(--shadow-1);
+}
+.shadow-lvl-2 {
+  box-shadow: var(--shadow-2);
+}
+.shadow-lvl-3 {
+  box-shadow: var(--shadow-3);
+}

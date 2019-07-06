@@ -2,19 +2,20 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">Buddi</h1>
+        <span class="separator"></span>
       <div class="columns-2">
         <div>
-          <h2>Project Summary</h2>
+          <p class="text-small uppercase is-bold">Project Summary</p>
           <p>I'm a founding member of the Buddi team. Over the past year I've been leading the design and development of the platform with a super talented remote team. In addition to my primary duties I've also been part of building the team, helping clients get started, demoing the application, working trade-shows among what seems like a million others things you do to push a startup forward.</p>
         </div>
         <div>
-          <h2>My Role</h2>
+          <p class="text-small uppercase is-bold">My Role</p>
           <p>Product Design, Product Management, Front-End Development</p>
 
-          <h2>The Team</h2>
+          <p class="text-small uppercase is-bold">The Team</p>
           <p>CEO (Sales), 1 Remote Developer, 1 Remote DevOps Engineer</p>
 
-          <h2>Tools I Used</h2>
+          <p class="text-small uppercase is-bold">Tools I Used</p>
           <p>Sketch, InvisionApp, FramerX, VS Code, HTML, CSS, Javascript, VueJS, Laravel, GitHub</p>
         </div>
       </div>
@@ -94,7 +95,7 @@
         </div>
         <g-image
           src="../../assets/images/projects/buddi/media.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
       </div>
@@ -102,12 +103,12 @@
       <div class="social-grid margin-bottom-lg">
         <g-image
           src="../../assets/images/projects/buddi/insta-1.png"
-          class="fluid rounded-corners item-1"
+          class="fluid rounded-corners item-1 shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/buddi/insta-2.png"
-          class="fluid rounded-corners item-2"
+          class="fluid rounded-corners item-2 shadow-lvl-3"
           alt
         ></g-image>
       </div>

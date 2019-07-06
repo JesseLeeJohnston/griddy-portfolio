@@ -1,5 +1,5 @@
 // @import '../../node_modules/normalize.css/normalize.css';
-@import "colours.scss";
+@import "variables.scss";
 @import "helpers.scss";
 @import "grid.scss";
 @import "typography.scss";
@@ -7,15 +7,15 @@
 
 body {
   margin: 0;
-  background-color: #081014;
-  color: #ffffff;
+  background-color: var(--background-color);
+  color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
 }
 .container {
   padding: 100px 1rem 1rem 1rem;
   min-height: 100vh;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 10rem;
 }
@@ -29,4 +29,13 @@ body {
 .fade-enter {
   opacity: 0;
   transform: translateY(-10px);
+}
+
+.separator {
+  display: block;
+  height: 5px;
+  width: 30px;
+  background-color: var(--secondary-brand);
+  border-radius: 5px;
+  margin: 2rem 0;
 }

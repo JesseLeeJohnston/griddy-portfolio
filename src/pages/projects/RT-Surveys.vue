@@ -2,27 +2,29 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">ResponseTek Surveys</h1>
+              <span class="separator"></span>
+
       <div class="columns-2 margin-bottom-md">
         <div>
-          <h2>Project Summary</h2>
+          <p class="text-small uppercase is-bold">Project Summary</p>
           <p>People get tired of filling surveys out for companies. There is no joy for a customer filling in responses to a survey. We needed to build a modern design that worked on all types of devices while still maintaining the integrity of the various question types.</p>
           <p>We also had to build a framework that could be used by a design centric fashion company but also a multinational telecommunications company. The design had to be versatile.</p>
         </div>
         <div>
-          <h2>My Role</h2>
+          <p class="text-small uppercase is-bold">My Role</p>
           <p>Product Design, Front-End Design/Development</p>
 
-          <h2>The Team</h2>
+          <p class="text-small uppercase is-bold">The Team</p>
           <p>Product Manager, 2 Senior Developers, 1 Intermediate Developer, 2 Junior Developers</p>
 
-          <h2>Tools I Used</h2>
+          <p class="text-small uppercase is-bold">Tools I Used</p>
           <p>Sketch, Invision, Atom, HTML, CSS, JavaScript</p>
         </div>
       </div>
 
       <g-image
         src="../../assets/images/projects/rt-surveys/image-1.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
       <p
@@ -31,7 +33,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-surveys/image-2.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -41,7 +43,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-surveys/image-3.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -51,7 +53,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-surveys/image-4.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -61,7 +63,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-surveys/image-5.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -81,7 +83,7 @@
           title="Buddi"
           year="2019"
           description="An express shopping and product information kiosk."
-          class="buddi-bg"
+          class="buddi-bg-wide"
           link="/projects/buddi"
         ></project-tile>
       </div>

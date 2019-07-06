@@ -49,11 +49,11 @@ export default {
 <style lang="scss" scoped>
 .project-grid {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 4rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 3rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 6rem;
 }
 @media (min-width: 620px) {
   .project-grid {
@@ -64,4 +64,6 @@ export default {
     }
   }
 }
+
+
 </style>

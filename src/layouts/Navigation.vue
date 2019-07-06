@@ -2,8 +2,8 @@
   <div>
     <div class="navbar">
       <div class="inner">
-        <g-link to="/">
-          <img src="@/assets/images/logo.svg" alt style="max-height: 70px;" />
+        <g-link to="/" style="line-height: 0;">
+          <img src="@/assets/images/logo.svg" alt class="logo" />
         </g-link>
         <div class="icon" :class="{active : showNav}" @click="showNav = !showNav">
           <div class="hamburger"></div>
@@ -42,6 +42,9 @@ export default {
 };
 </script>
 <style lang="scss">
+.logo {
+  max-height: 4rem;
+}
 .icon {
   transform: translate(0%, 0%);
   width: 80px;
@@ -51,12 +54,13 @@ export default {
   transition: 0.5s;
   &:hover {
     opacity: 1;
+    transform: scale(0.95);
   }
 }
 .hamburger {
   width: 40px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: var(--primary-brand);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,7 +74,7 @@ export default {
   position: absolute;
   width: 50px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: var(--primary-brand);
   transition: 0.5s;
   border-radius: 0.25rem;
 }
@@ -100,13 +104,16 @@ export default {
   left: 0;
   right: 0;
   top: 0;
-  background-image: linear-gradient(180deg, #081014 0%, rgba(0, 0, 0, 0) 100%);
+  background: var(--background-color);
+  box-shadow: var(--shadow-3);
   .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    margin: 0 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 }
 .nav-overlay {

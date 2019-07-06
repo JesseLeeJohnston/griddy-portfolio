@@ -2,20 +2,21 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">Cully: Facebook Messenger Movie Bot</h1>
+              <span class="separator"></span>
       <div class="columns-2">
         <div>
-          <h2>Project Summary</h2>
+          <p class="text-small uppercase is-bold">Project Summary</p>
           <p>The Cully project is a government funded innovation project for us to create a product that uses newer technology to innovate. I joined the project in the early stages at that time we were making a chatbot that recommended events to people based on their interests. The first release of the chatbot was specifically for finding interesting events in your city (beta only had Toronto and Vancouver). This gave us some experience with launching a bot on Facebook Messenger and getting some initial usability and product feedback. It also helped me define what was working and not working in my design process.</p>
           <p>Once we got our first chatbot out of the door we began to pivot our focus to the movie theatre industry. We saw an opportunity to help simplify the ticket buying process and provide an easier guided experience for moviegoers.</p>
         </div>
         <div>
-          <h2>My Role</h2>
+          <p class="text-small uppercase is-bold">My Role</p>
           <p>Product Design, Product Management</p>
 
-          <h2>The Team</h2>
+          <p class="text-small uppercase is-bold">The Team</p>
           <p>1 Senior Developer, 1 Intermediate Developer</p>
 
-          <h2>Tools I Used</h2>
+          <p class="text-small uppercase is-bold">Tools I Used</p>
           <p>Sketch, Sketch Plugin: User Flows, InvisionApp, GitHub, Dialogflow, ChatFuel</p>
         </div>
       </div>
@@ -41,7 +42,7 @@
       <div class="columns-2 margin-bottom-lg margin-top-lg">
         <g-image
           src="../../assets/images/projects/cully/cully-2.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
         <div>
@@ -53,17 +54,17 @@
       <div class="columns-2">
         <g-image
           src="../../assets/images/projects/cully/cully-3.png"
-          class="fluid rounded-corners hidden-sm"
+          class="fluid rounded-corners hidden-sm shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/cully/cully-4.png"
-          class="fluid rounded-corners hidden-sm"
+          class="fluid rounded-corners hidden-sm shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/cully/cully-5.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
         <div>

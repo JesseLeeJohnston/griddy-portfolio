@@ -1,6 +1,8 @@
 <template>
   <div class="footer-container">
-    <social-links />
+    <div class="social-icons">
+      <social-links />
+    </div>
     <!-- <div>
         TODO: Create a inline list with links to pages for some of the following
          <ul>
@@ -26,10 +28,15 @@ export default {
 </script>
 <style lang="scss" scoped>
 .footer-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--primary-brand);
   padding: 2rem 1rem;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   margin-top: 3rem;
+  color: var(--text-rev);
+}
+.social-icons {
+  max-width: 300px;
+  margin: 0 auto;
 }
 </style>

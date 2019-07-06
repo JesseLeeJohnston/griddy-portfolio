@@ -2,26 +2,28 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">ResponseTek Dashboard</h1>
+              <span class="separator"></span>
+
       <div class="columns-2 margin-bottom-md">
         <div>
-          <h2>Project Summary</h2>
+          <p class="text-small uppercase is-bold">Project Summary</p>
           <p>The ResponseTek dashboard needed to be redesigned. Some key aspects that I needed to focus on improving were the way filtering works and the visual look of the data we were presenting. We also had massive amounts of data that we needed to find ways of presenting to our users.</p>
         </div>
         <div>
-          <h2>My Role</h2>
+          <p class="text-small uppercase is-bold">My Role</p>
           <p>Product Design, User Research, Persona Development</p>
 
-          <h2>The Team</h2>
+          <p class="text-small uppercase is-bold">The Team</p>
           <p>Product Manager, 2 Senior Developers, 1 Intermediate Developer, 2 Junior Developers</p>
 
-          <h2>Tools I Used</h2>
+          <p class="text-small uppercase is-bold">Tools I Used</p>
           <p>Sketch, Invision, Atom, Flinto, HTML, CSS</p>
         </div>
       </div>
 
       <g-image
         src="../../assets/images/projects/rt-dashboard/dash-1.png"
-        class="fluid rounded-corners margin-bottom-md"
+        class="fluid rounded-corners margin-bottom-md shadow-lvl-3"
         alt
       ></g-image>
       <p>This project had many different stakeholders so it was important to first learn from interviews with clients and client service staff. I wanted to find out what was working and not working for them, what kind of reports they were manually creating and how they were filtering through their data.</p>
@@ -31,7 +33,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-dashboard/dash-2.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -41,7 +43,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-dashboard/dash-3.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 
@@ -51,7 +53,7 @@
 
       <g-image
         src="../../assets/images/projects/rt-dashboard/dash-4.png"
-        class="fluid rounded-corners"
+        class="fluid rounded-corners shadow-lvl-3"
         alt
       ></g-image>
 

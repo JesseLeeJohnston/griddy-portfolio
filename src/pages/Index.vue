@@ -2,7 +2,8 @@
 <layout>
 <div class="container">
   <div class="hero-text">
-    <h1 class="special-heading">Hi, I’m Jesse. I design and develop web applications that end customers find easy to use. I believe rapid prototyping and feedback cycles help achieve the best end product.</h1>
+    <h1 class="special-heading margin-bottom-sm">Hi, I’m Jesse.</h1> <h1 class="special-heading">I design and develop web applications that end users find easy to use. I believe rapid prototyping and feedback cycles help achieve the best end product.</h1>
+    <span class="separator"></span>
   </div>
     <project-grid/>
 </div>
@@ -44,10 +45,9 @@ export default {
 <style lang="scss">
 
 .hero-text {
-  text-align: center;
   padding: 6rem 0rem;
   margin: 0 auto;
-  max-width: 710px;
+  max-width: 1000px;
 }
 
 .blog-post {

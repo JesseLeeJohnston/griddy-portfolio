@@ -2,19 +2,21 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">Motto</h1>
+              <span class="separator"></span>
+
       <div class="columns-2">
         <div>
-          <h2>Project Summary</h2>
+          <p class="text-small uppercase is-bold">Project Summary</p>
           <p>The Motto project is another type of cryptocurrency exchange that I had the opportunity to design & develop a functional prototype for. While working with the Cully team we were given the task of working on this new exchange platform and we had to have a functional prototype within 2 weeks.</p>
         </div>
         <div>
-          <h2>My Role</h2>
+          <p class="text-small uppercase is-bold">My Role</p>
           <p>Project Design, Front-End Design, Product Management</p>
 
-          <h2>The Team</h2>
+          <p class="text-small uppercase is-bold">The Team</p>
           <p>1 Senior Developer, 1 Intermediate Developer</p>
 
-          <h2>Tools I Used</h2>
+          <p class="text-small uppercase is-bold">Tools I Used</p>
           <p>Sketch (and Sketch prototyping), GitHub, VueJs, VS Code</p>
         </div>
       </div>
@@ -72,17 +74,17 @@
       <div class="columns-3">
         <g-image
           src="../../assets/images/projects/motto/wireframe-1.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/motto/wireframe-2.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/motto/wireframe-3.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
       </div>
@@ -109,17 +111,17 @@
       <div class="columns-3 staggered-images">
         <g-image
           src="../../assets/images/projects/motto/trade-1.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/motto/trade-2.png"
-          class="fluid rounded-corners second"
+          class="fluid rounded-corners second shadow-lvl-3"
           alt
         ></g-image>
         <g-image
           src="../../assets/images/projects/motto/trade-3.png"
-          class="fluid rounded-corners third"
+          class="fluid rounded-corners third shadow-lvl-3"
           alt
         ></g-image>
       </div>
@@ -130,13 +132,13 @@
         <div class="column-span-2">
           <g-image
             src="../../assets/images/projects/motto/desktop-2.png"
-            class="fluid rounded-corners"
+            class="fluid rounded-corners shadow-lvl-3"
             alt
           ></g-image>
         </div>
         <g-image
           src="../../assets/images/projects/motto/mobile-1.png"
-          class="fluid rounded-corners"
+          class="fluid rounded-corners shadow-lvl-3"
           alt
         ></g-image>
       </div>
@@ -154,7 +156,7 @@
           title="Buddi"
           year="2019"
           description="An express shopping and product information kiosk."
-          class="buddi-bg"
+          class="buddi-bg-wide"
           link="/projects/buddi"
         ></project-tile>
         <project-tile
@@ -218,6 +220,7 @@ export default {
   padding: 2rem;
   h3 {
     max-width: 50rem;
+    color: var(--text-rev);
   }
 }
 

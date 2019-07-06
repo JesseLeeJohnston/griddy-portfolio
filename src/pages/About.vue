@@ -90,6 +90,7 @@ export default {
   max-width: 12rem;
   border-radius: 50%;
   margin-bottom: 2rem;
+  box-shadow: var(--shadow-3);
 }
 .timeline {
   position: relative;
