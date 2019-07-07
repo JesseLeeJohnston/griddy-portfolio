@@ -45,7 +45,7 @@ export default {
 <style lang="scss">
 
 .hero-text {
-  padding: 4rem 0rem;
+  padding: 3rem 0rem;
   margin: 0 auto;
   max-width: 1000px;
   @media (min-width: 620px) {

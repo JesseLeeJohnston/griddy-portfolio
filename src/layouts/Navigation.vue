@@ -109,12 +109,12 @@ export default {
 }
 .hamburger {
   width: 40px;
-  height: 4px;
+  /* height: 4px; */
 }
 .hamburger:before,
 .hamburger:after {
   width: 50px;
-  height: 4px;
+  /* height: 4px; */
 }
   }
 
