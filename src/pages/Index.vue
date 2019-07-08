@@ -13,7 +13,7 @@
 <script>
 import ProjectGrid from '~/layouts/Project-Grid.vue';
   
-// import anime from '../../node_modules/animejs/lib/anime.es.js';
+import anime from '../../node_modules/animejs/lib/anime.es.js';
 
 export default {
   metaInfo: {
@@ -25,7 +25,7 @@ export default {
   },
   components: {
     ProjectGrid,
-    // anime
+    anime
   },
   data() {
     return {
@@ -33,11 +33,20 @@ export default {
     }
   },
   mounted() {
-    // anime({
-    //   targets: '.hero-text',
-    //   translateY: -10,
-    //   duration: 3000
-    // });
+    anime({
+      targets: '.hero-text',
+      translateY: [200, 0],
+      opacity: [0,1],
+      duration: 1000,
+    });
+    anime({
+      targets: '.separator',
+      width: '10%',
+      easing: 'easeInOutQuad',
+      direction: 'alternate',
+      delay: 200,
+      duration: 500,
+    });
   }
 }
 </script>

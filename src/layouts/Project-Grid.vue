@@ -39,11 +39,22 @@
 </template>
 <script>
 import ProjectTile from "~/components/Project-Tile.vue";
+// import anime from '../../node_modules/animejs/lib/anime.es.js';
+
 
 export default {
   components: {
-    ProjectTile
+    ProjectTile,
+    // anime
+  },
+  mounted() {
+    // anime({
+    //   targets: '#testing1',
+    //   opacity: [0,1],
+    //   duration: 3000,
+    // });
   }
+
 };
 </script>
 <style lang="scss" scoped>
