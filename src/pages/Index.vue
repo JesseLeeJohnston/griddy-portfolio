@@ -20,7 +20,7 @@ export default {
     title: 'Vancouver & Remote Producer Designer',
     meta: [
       { name: 'author', content: 'Jesse Johnston' },
-      { key: 'description', name: 'description', content: 'Jesse is a product designer based in Vancouver, BC. He\'s skill in creating detailed designs, interactive prototypes and working with developments teams for implementation.' }
+      { key: 'description', name: 'description', content: 'Jesse is a product designer based in Vancouver, BC. He\'s skilled in creating detailed designs, interactive prototypes and working with developments teams for implementation.' }
     ]
   },
   components: {
@@ -37,7 +37,7 @@ export default {
       targets: '.hero-text',
       translateY: [200, 0],
       opacity: [0,1],
-      duration: 1000,
+      duration: 2000,
     });
     anime({
       targets: '.separator',

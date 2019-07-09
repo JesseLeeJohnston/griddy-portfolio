@@ -30,7 +30,7 @@
               <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people." v-model="formData.message"></textarea>
           </div>
           <div class="form-control text-right">
-            <button type="submit" class="button reversed">Submit form</button>
+            <button type="submit" class="button primary">Submit form</button>
           </div>
       </form>
     </Panel>
