@@ -21,6 +21,10 @@
         <h3>About</h3>
       </g-link>
 
+      <g-link v-on:click.native="showNav = false" to="/blog">
+        <h3>Blog</h3>
+      </g-link>
+
       <g-link v-on:click.native="showNav = false" to="/contact">
         <h3>Contact Me</h3>
       </g-link>
@@ -45,10 +49,9 @@ export default {
 .logo {
   max-height: 2.5rem;
   @media (min-width: 620px) {
-      max-height: 4rem;
+    max-height: 4rem;
   }
 }
-
 
 .icon {
   transform: translate(0%, 0%);
@@ -102,22 +105,21 @@ export default {
   transform: rotate(135deg);
 }
 
-  @media (min-width: 620px) {
-.icon {
-  width: 80px;
-  height: 80px;
-}
-.hamburger {
-  width: 40px;
-  /* height: 4px; */
-}
-.hamburger:before,
-.hamburger:after {
-  width: 50px;
-  /* height: 4px; */
-}
+@media (min-width: 620px) {
+  .icon {
+    width: 80px;
+    height: 80px;
   }
-
+  .hamburger {
+    width: 40px;
+    /* height: 4px; */
+  }
+  .hamburger:before,
+  .hamburger:after {
+    width: 50px;
+    /* height: 4px; */
+  }
+}
 
 .navbar {
   z-index: 900;
@@ -144,9 +146,9 @@ export default {
 .nav-overlay {
   display: grid;
   z-index: 300;
-  grid-template-rows: 90px 1fr 1fr 1fr 100px;
+  grid-template-rows: 90px 1fr 1fr 1fr 1fr 100px;
   @media (min-width: 620px) {
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px;
   }
   height: 100vh;
   position: fixed;
