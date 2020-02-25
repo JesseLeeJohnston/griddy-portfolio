@@ -57,7 +57,9 @@
           />
         </p>
       </g-link>
-
+      <div v-for="post in $page.posts.edges" :key="post.node.id" class="content">
+        <p v-html="posts.content"></p>
+      </div>
       <div class="pagination">
         <div>
           <a href="#" class="link">Previous</a>
@@ -78,6 +80,21 @@
     </div>
   </layout>
 </template>
+
+<page-query>
+query Posts {
+  posts: AllPost {
+    edges {
+      node {
+        id
+        title
+        content
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {
   metaInfo: {
