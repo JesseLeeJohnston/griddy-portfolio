@@ -6,6 +6,16 @@
 
 module.exports = {
   siteName: "Jesse Johnston Vancouver Product & UX Design",
+  transformers: {
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
   plugins: [
     {
       use: "gridsome-plugin-gtm",
@@ -18,7 +28,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "posts/**/*.md",
+        path: "blog/**/*.md",
         typeName: "Post",
         remark: {
           plugins: [

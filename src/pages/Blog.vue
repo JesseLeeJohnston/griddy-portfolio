@@ -1,94 +1,52 @@
 <template>
   <layout>
     <div class="container">
-      <g-link :to="link" class="blog-tile">
-        <div>
-          <h2>This is a title</h2>
-          <p class="text-small is-marginless">December 25, 2020</p>
-          <p
-            class
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium, perspiciatis cupiditate corrupti debitis impedit! Aliquid vero numquam omnis nihil ut? Adipisci ullam ea quisquam nihil, doloribus repellendus aliquam vero?</p>
-        </div>
-        <p class="text-small uppercase read-blog">
-          Read More
-          <img
-            src="../assets/images/icons/arrow-right-blk.svg"
-            alt
-            width="10px"
-            height="10px"
-          />
-        </p>
-      </g-link>
-
-      <g-link :to="link" class="blog-tile">
-        <div>
-          <h2>This is a title</h2>
-          <p class="text-small is-marginless">December 25, 2020</p>
-          <p
-            class
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium, perspiciatis cupiditate corrupti debitis impedit! Aliquid vero numquam omnis nihil ut? Adipisci ullam ea quisquam nihil, doloribus repellendus aliquam vero?</p>
-        </div>
-        <p class="text-small uppercase read-blog">
-          Read More
-          <img
-            src="../assets/images/icons/arrow-right-blk.svg"
-            alt
-            width="10px"
-            height="10px"
-          />
-        </p>
-      </g-link>
-
-      <g-link :to="link" class="blog-tile">
-        <div>
-          <h2>This is a title</h2>
-          <p class="text-small is-marginless">December 25, 2020</p>
-          <p
-            class
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium, perspiciatis cupiditate corrupti debitis impedit! Aliquid vero numquam omnis nihil ut? Adipisci ullam ea quisquam nihil, doloribus repellendus aliquam vero?</p>
-        </div>
-        <p class="text-small uppercase read-blog">
-          Read More
-          <img
-            src="../assets/images/icons/arrow-right-blk.svg"
-            alt
-            width="10px"
-            height="10px"
-          />
-        </p>
-      </g-link>
-      <div v-for="post in $page.posts.edges" :key="post.node.id" class="content">
-        <p v-html="posts.content"></p>
+      <div v-for="post in $page.posts.edges" :key="post.node.id">
+        <g-link :to="post.node.path" class="blog-tile">
+          <div>
+            <h2>{{post.node.title}}</h2>
+            <p class="text-small is-marginless">Published: {{post.node.date}}</p>
+            <p class>{{post.node.excerpt}}</p>
+          </div>
+          <p class="text-small uppercase read-blog">
+            Read More
+            <img
+              src="../assets/images/icons/arrow-right-blk.svg"
+              alt
+              width="10px"
+              height="10px"
+            />
+          </p>
+        </g-link>
       </div>
-      <div class="pagination">
-        <div>
-          <a href="#" class="link">Previous</a>
-        </div>
-
-        <div style="display: flex; justify-content: space-between;">
-          <a href="#" class="link">1</a>
-          <a href="#" class="link">2</a>
-          <a href="#" class="link">3</a>
-          <a href="#" class="link">4</a>
-          <a href="#" class="link active">5</a>
-        </div>
-
-        <div style="text-align: right;">
-          <a href="#" class="link">Next</a>
-        </div>
-      </div>
+      <Pager
+        :info="$page.posts.pageInfo"
+        ,
+        :linkClass="pagination"
+        class="pagination"
+        nextLabel="Next"
+        prevLabel="Previous"
+      />
     </div>
   </layout>
 </template>
 
 <page-query>
-query Posts {
-  posts: AllPost {
+query Posts ($page: Int) {
+  posts: allPost (perPage: 5, page: $page) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+      isFirst
+      isLast
+    }
     edges {
       node {
-        id
         title
-        content
+        path
+        excerpt
+        date(format: "YYYY-MM-DD")
       }
     }
   }
@@ -96,6 +54,8 @@ query Posts {
 </page-query>
 
 <script>
+import { Pager } from "gridsome";
+
 export default {
   metaInfo: {
     title: "Blog",
@@ -108,6 +68,9 @@ export default {
           "I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team."
       }
     ]
+  },
+  components: {
+    Pager
   }
 };
 </script>
@@ -124,7 +87,7 @@ export default {
     background-position 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   background-size: 100%;
-  padding: 1rem;
+  padding: 1.6rem 1rem 1rem;
   margin-bottom: 3.5rem;
   &:hover {
     transform: scale(0.98);
@@ -144,7 +107,25 @@ export default {
   }
 }
 .pagination {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    color: var(--secondary-brand);
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(0.33, 0.66, 0.66, 1);
+    padding: 4px 8px;
+    border-radius: 0.25rem;
+    margin: 0 0.5rem;
+    &.active--exact {
+      background-color: var(--secondary-brand);
+      color: var(--text-rev);
+      &:hover {
+        color: var(--text-rev);
+      }
+    }
+    &:hover {
+      color: var(--primary-brand);
+    }
+  }
 }
 </style>
