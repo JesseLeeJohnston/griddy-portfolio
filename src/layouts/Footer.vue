@@ -12,7 +12,7 @@
         </ul> 
     </div>-->
     <div>
-      <p class="text-small text-muted margin-top-sm">Copyright 2019 - Jessejohnston.co.</p>
+      <p class="text-small text-muted margin-top-sm">Copyright 2012 - 2020. Jessejohnston.co.</p>
       <p class="text-small text-muted">All client work is property of the specified client.</p>
     </div>
   </div>
