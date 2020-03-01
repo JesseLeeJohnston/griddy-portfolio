@@ -1,19 +1,47 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Jesse Johnston Vancouver Product & UX Design',
+  siteName: "Jesse Johnston Vancouver Product & UX Design",
+  transformers: {
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
   plugins: [
     {
-      use: 'gridsome-plugin-gtm',
+      use: "gridsome-plugin-gtm",
       options: {
-        id: 'GTM-M4CXDR',
+        id: "GTM-M4CXDR",
         enabled: true,
         debug: true
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "blog/**/*.md",
+        typeName: "Post",
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
     }
   ]
-}
+};

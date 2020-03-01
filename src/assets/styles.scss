@@ -40,3 +40,17 @@ body {
   border-radius: 5px;
   margin: 2rem 0;
 }
+.link {
+  color: var(--secondary-brand);
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.33, 0.66, 0.66, 1);
+  padding: 4px 8px;
+  border-radius: 0.25rem;
+  &:hover {
+    color: var(--primary-brand);
+  }
+  &.active {
+    background-color: var(--secondary-brand);
+    color: var(--text-rev);
+  }
+}
