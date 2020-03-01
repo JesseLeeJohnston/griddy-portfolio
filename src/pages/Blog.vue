@@ -87,8 +87,11 @@ export default {
     background-position 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   background-size: 100%;
-  padding: 1.6rem 1rem 1rem;
+  padding: 1.6rem 2rem 1rem;
   margin-bottom: 3.5rem;
+  p {
+    margin-top: 0.2rem;
+  }
   &:hover {
     transform: scale(0.98);
     /* background-size: 100%; */
