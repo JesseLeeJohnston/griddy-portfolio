@@ -1,14 +1,13 @@
 <template>
   <layout>
     <div class="container">
-
-        <div class="text-center">
+      <div class="text-center">
         <g-image src="@/assets/images/Jesse-Headshot.jpg" class="fluid profile"></g-image>
         <h2>Hi, I'm Jesse!</h2>
-        </div>
-        <p>I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team.</p>
-        <p>In my current practice, I work in sprints using lean methodology, I'm constantly listening to our users' needs and using that feedback to create informed iterations on the next version of our product.</p>
-        <p>In my spare time, I really enjoy learning new technologies and tools, binge watching awesome TV shows and staying active.</p>
+      </div>
+      <p>I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team.</p>
+      <p>In my current practice, I work in sprints using lean methodology, I'm constantly listening to our users' needs and using that feedback to create informed iterations on the next version of our product.</p>
+      <p>In my spare time, I really enjoy learning new technologies and tools, binge watching awesome TV shows and staying active.</p>
 
       <div class="margin-top-md">
         <h2 class="text-center">My Experience</h2>
@@ -66,9 +65,20 @@
         </ul>
         <!-- TODO: Add resume file -->
         <div class="text-center">
-        <g-link href="https://drive.google.com/open?id=1UDoEpMk3lIo8iwOOyxvxBX7llBxy4x8U" target="_blank"  class="button primary">
-          Download My Resume <i data-feather="download-cloud" stroke-width="1" width="16px" height="16px"></i>
-        </g-link>
+          <g-link
+            href="https://drive.google.com/open?id=1UDoEpMk3lIo8iwOOyxvxBX7llBxy4x8U"
+            target="_blank"
+            class="button primary"
+            download
+          >
+            Download My Resume
+            <i
+              data-feather="download-cloud"
+              stroke-width="1"
+              width="16px"
+              height="16px"
+            ></i>
+          </g-link>
         </div>
       </div>
     </div>
@@ -77,12 +87,17 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About Jesse',
+    title: "About Jesse",
     meta: [
-      { name: 'author', content: 'Jesse Johnston' },
-      { key: 'description', name: 'description', content: 'I\'m a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it\'s important to adapt my toolset to the project I\'m currently working on and the specific needs of that team.' }
+      { name: "author", content: "Jesse Johnston" },
+      {
+        key: "description",
+        name: "description",
+        content:
+          "I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team."
+      }
     ]
-  },
+  }
 };
 </script>
 <style lang="scss" scoped>
