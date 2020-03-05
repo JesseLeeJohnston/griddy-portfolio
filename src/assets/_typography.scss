@@ -32,12 +32,23 @@ h5 {
   font-size: 1.4rem;
   line-height: 2rem;
 }
-p {
-  font-weight: 300;
+p,
+strong,
+em {
   font-size: 1.4rem;
   line-height: 2.4rem;
   margin: 1rem 0;
 }
+p {
+  font-weight: 300;
+}
+strong {
+  font-weight: 600;
+}
+em {
+  font-style: italic;
+}
+
 .special-heading {
   font-size: 1.8rem;
   line-height: 2.6rem;

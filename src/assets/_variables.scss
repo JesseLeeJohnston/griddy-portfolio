@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Lato:300,400");
 
 :root {
-    --background-color: #ffffff;
-    
-    --primary-brand: #081014;
-    --secondary-brand: #208fc6;
-    --link: #ffffff;
-    --text: #081014;
-    --text-rev: #ffffff;
+  --background-color: #ffffff;
 
-    --font-h: "Arvo", serif;
-    --font-p: "Lato", sans-serif;
+  --primary-brand: #081014;
+  --secondary-brand: #208fc6;
+  --link: #208fc6;
+  --text: #081014;
+  --text-rev: #ffffff;
 
-    --shadow-1: 0 30px 30px 0 rgba(0,0,0,0.30);
-    --shadow-2: 0 20px 20px 0 rgba(0,0,0,0.20);
-    --shadow-3: 0 20px 20px 0 rgba(0,0,0,0.05);
+  --font-h: "Arvo", serif;
+  --font-p: "Lato", sans-serif;
+
+  --shadow-1: 0 30px 30px 0 rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  --shadow-3: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
 }

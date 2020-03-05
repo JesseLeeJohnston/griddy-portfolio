@@ -1,20 +1,26 @@
 <template>
-    <g-link :to="link" class="project-tile" :class="background">
-      <div>
-        <h2>{{ title }}</h2>
-        <p class="text-small is-marginless">
-          <span class="text-small is-bold">{{ year }} //</span> {{ description }}
-        </p>
-      </div>
-      <p class="text-small uppercase project-details">
-        Project Details
-        <img src="../assets/images/icons/arrow-right.svg" alt="" width="10px" height="10px">
+  <g-link :to="link" class="project-tile" :class="background">
+    <div>
+      <h2>{{ title }}</h2>
+      <p class="text-small is-marginless">
+        <span class="text-small is-bold">{{ year }} //</span>
+        {{ description }}
       </p>
-    </g-link>
+    </div>
+    <p class="text-small uppercase project-details">
+      Project Details
+      <img
+        src="../assets/images/icons/arrow-right.svg"
+        alt
+        width="10px"
+        height="10px"
+      />
+    </p>
+  </g-link>
 </template>
 <script>
 export default {
-    props: ['title', 'year', 'description', 'background', 'link']
+  props: ["title", "year", "description", "background", "link"]
 };
 </script>
 <style lang="scss" scoped>
@@ -26,13 +32,13 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition:
-    transform 500ms ease-in-out,
+  transition: transform 500ms ease-in-out,
     /* background-size 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99), */
-    background-position 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
-  box-shadow: 0 30px 30px 0 rgba(0,0,0,0.30);
+      background-position 1500ms 200ms cubic-bezier(0.17, 0.67, 0.62, 0.99);
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.3);
   background-size: 100%;
   padding: 1rem;
+  color: var(--text-rev);
   &:hover {
     transform: scale(0.98);
     /* background-size: 100%; */
@@ -65,10 +71,10 @@ export default {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("../assets/images/main-tiles/buddi.jpg");
+  background-size: cover;
+  &:hover {
     background-size: cover;
-    &:hover {
-      background-size: cover;
-    }
+  }
 }
 .buddi-bg {
   background-image: linear-gradient(
@@ -77,12 +83,12 @@ export default {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("../assets/images/main-tiles/buddi-1x1.jpg");
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   transition: box-shadow 500ms;
   background-size: cover;
 }
 .buddi-bg:hover {
-    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
 }
 .rt-dashboard-bg {
   background-image: linear-gradient(
