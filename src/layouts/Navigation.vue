@@ -20,10 +20,10 @@
       <g-link v-on:click.native="showNav = false" to="/about">
         <h3>About</h3>
       </g-link>
-      <!-- 
+
       <g-link v-on:click.native="showNav = false" to="/blog">
         <h3>Blog</h3>
-      </g-link>-->
+      </g-link>
 
       <g-link v-on:click.native="showNav = false" to="/contact">
         <h3>Contact Me</h3>
@@ -146,11 +146,9 @@ export default {
 .nav-overlay {
   display: grid;
   z-index: 300;
-  grid-template-rows: 90px 1fr 1fr 1fr 100px;
-  /* grid-template-rows: 90px 1fr 1fr 1fr 1fr 100px; */
+  grid-template-rows: 90px 1fr 1fr 1fr 1fr 100px;
   @media (min-width: 620px) {
-    /* grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px; */
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px;
   }
   height: 100vh;
   position: fixed;
@@ -165,6 +163,7 @@ export default {
     display: flex;
     justify-content: center;
     opacity: 0;
+    color: var(--text-rev);
     h3 {
       opacity: 0.8;
       transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
