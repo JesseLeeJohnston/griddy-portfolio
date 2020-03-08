@@ -12,8 +12,15 @@
         </ul> 
     </div>-->
     <div>
-      <p class="text-small text-muted margin-top-sm">Copyright 2012 - 2020. Jessejohnston.co.</p>
-      <p class="text-small text-muted">All client work is property of the specified client.</p>
+      <p
+        class="text-small text-muted margin-top-sm"
+      >&copy; 2012 - 2020. Jessejohnston.co. This site was designed and developed by me using Gridsome and deployed to Netlify.</p>
+    </div>
+    <div class="footer-links">
+      <g-link to="/" class="text-sm">Home</g-link>
+      <g-link to="/about" class="text-sm">About Me</g-link>
+      <g-link to="/blog" class="text-sm">Blog</g-link>
+      <g-link to="/contact" class="text-sm">Contact</g-link>
     </div>
   </div>
 </template>
@@ -38,5 +45,8 @@ export default {
 .social-icons {
   max-width: 300px;
   margin: 0 auto;
+}
+.footer-links a {
+  margin: 0 1rem;
 }
 </style>

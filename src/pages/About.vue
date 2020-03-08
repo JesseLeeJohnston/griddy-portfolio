@@ -66,10 +66,11 @@
         <!-- TODO: Add resume file -->
         <div class="text-center">
           <g-link
-            href="https://drive.google.com/open?id=1UDoEpMk3lIo8iwOOyxvxBX7llBxy4x8U"
+            href="https://drive.google.com/file/d/1vsWmS1_uFq8HvldmMhKaCJ2y2S_pyi3B"
             target="_blank"
             class="button primary"
             download
+            rel="noreferrer"
           >
             Download My Resume
             <i
@@ -87,14 +88,14 @@
 <script>
 export default {
   metaInfo: {
-    title: "About Jesse",
+    title: "About Jesse Vancouver UX/UI Product Designer",
     meta: [
       { name: "author", content: "Jesse Johnston" },
       {
         key: "description",
         name: "description",
         content:
-          "I'm a product designer that enjoys both designing and coding for the web. Not all projects and teams are the same and I believe it's important to adapt my toolset to the project I'm currently working on and the specific needs of that team."
+          "Jesse is a Producer Designer (UX/UI) based in Vancouver, British Columbia. He has worked for and founded start ups and designed for enterprise level companies. In addition to design Jesse enjoys working in front end code to help bring his ideas to life using HTML, CSS and Javascript."
       }
     ]
   }

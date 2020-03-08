@@ -1,33 +1,24 @@
 <template>
   <div class="layout">
-    <Navigation/>
+    <Navigation />
 
     <transition name="fade" appear>
       <main>
-        <slot/>
+        <slot />
       </main>
     </transition>
 
-    <Footer/>
-
+    <Footer />
   </div>
 </template>
 <script>
-import Navigation from '~/layouts/Navigation.vue';
-import Footer from '~/layouts/Footer.vue';
+import Navigation from "~/layouts/Navigation.vue";
+import Footer from "~/layouts/Footer.vue";
 
 export default {
   components: {
-      Navigation,
-      Footer,
+    Navigation,
+    Footer
   }
-}
+};
 </script>
-
-
-
-<style>
-
-
-
-</style>

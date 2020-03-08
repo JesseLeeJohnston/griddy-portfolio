@@ -58,7 +58,7 @@ import { Pager } from "gridsome";
 
 export default {
   metaInfo: {
-    title: "Blog",
+    title: "Vancouver UX Blog of Jesse Johnston",
     meta: [
       { name: "author", content: "Jesse Johnston" },
       {
