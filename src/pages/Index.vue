@@ -28,6 +28,10 @@ export default {
         name: "description",
         content:
           "Jesse is a product designer based in Vancouver, BC. He's skilled in creating detailed designs, interactive prototypes and working with developments teams for implementation."
+      },
+      {
+        name: "google-site-verification",
+        content: "lB4ywQJk_Jn4E-ViCLNbVqbMHblJhi4p2NJ_aQLm2_I"
       }
     ]
   },

@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: "Jesse Johnston Vancouver Product & UX Design",
+  siteUrl: "https://www.jessejohnston.co",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -41,6 +42,18 @@ module.exports = {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`
+      }
+    },
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        cacheTime: 600000, // default
+        config: {
+          "/blog/*": {
+            changefreq: "weekly",
+            priority: 0.5
+          }
+        }
       }
     }
   ]
