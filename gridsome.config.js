@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: "Jesse Johnston Vancouver Product & UX Design",
+  siteUrl: "https://www.jessejohnston.co",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
