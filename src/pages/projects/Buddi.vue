@@ -2,7 +2,7 @@
   <layout>
     <div class="container">
       <h1 class="margin-bottom-sm">Buddi</h1>
-        <span class="separator"></span>
+      <span class="separator"></span>
       <div class="columns-2">
         <div>
           <p class="text-small uppercase is-bold">Project Summary</p>
@@ -35,6 +35,12 @@
       <p>The Buddi platform is made up of a few different components. The first is the retail application, this is a tablet app that is used by customers inside of legal cannabis stores. The second is the retail admin area which is used by the staff and managers to control their retail application. The last is our producer platform, this is where producers can update their content, run advertising and review analytic dashboards. In this portfolio entry, I'll primarily be talking about the retail application.</p>
 
       <p>Our main retail application is a VueJs Progressive Web App. This provided us the flexibility of working with web technologies but also being able to run the application as a full-screen application on Apple and Android devices. We've also kept it as a separate static site which connects to the backend via API calls, this makes updating the front-end extremely quick and easy.</p>
+
+      <div class="video-wrapper video-tv">
+        <video ref="video" class="video" autoplay loop muted playsinline>
+          <source src="@/assets/images/projects/buddi/video.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
+        </video>
+      </div>
 
       <div class="columns-2 margin-top-lg margin-bottom-lg">
         <div class="vertical-center">
