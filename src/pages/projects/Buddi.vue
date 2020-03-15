@@ -21,7 +21,7 @@
       </div>
 
       <div class="intro-grid margin-top-lg margin-bottom-lg">
-        <div class="item-1 background-city rounded-corners"></div>
+        <div class="item-1 background-kiaro-1 rounded-corners"></div>
         <div class="item-2 background-gradient vertical-center rounded-corners">
           <g-image
             src="../../assets/images/projects/buddi/vector-buddi.svg"
@@ -29,18 +29,18 @@
             class="fluid rounded-corners"
           ></g-image>
         </div>
-        <div class="item-3 background-nls rounded-corners"></div>
-        <div class="item-4 background-plantlife rounded-corners"></div>
+        <div class="item-3 background-kiaro-2 rounded-corners"></div>
+        <div class="item-4 background-city rounded-corners"></div>
       </div>
       <p>The Buddi platform is made up of a few different components. The first is the retail application, this is a tablet app that is used by customers inside of legal cannabis stores. The second is the retail admin area which is used by the staff and managers to control their retail application. The last is our producer platform, this is where producers can update their content, run advertising and review analytic dashboards. In this portfolio entry, I'll primarily be talking about the retail application.</p>
 
       <p>Our main retail application is a VueJs Progressive Web App. This provided us the flexibility of working with web technologies but also being able to run the application as a full-screen application on Apple and Android devices. We've also kept it as a separate static site which connects to the backend via API calls, this makes updating the front-end extremely quick and easy.</p>
 
-      <div class="video-wrapper video-tv">
+      <!-- <div class="video-wrapper video-tv">
         <video ref="video" class="video" autoplay loop muted playsinline>
           <source src="@/assets/images/projects/buddi/video.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
         </video>
-      </div>
+      </div>-->
 
       <div class="columns-2 margin-top-lg margin-bottom-lg">
         <div class="vertical-center">
@@ -188,16 +188,18 @@ export default {
   > .item-4 {
     grid-area: store-2;
   }
+  > .background-kiaro-1 {
+    background-image: url("../../assets/images/projects/buddi/Kiaro-Buddi-1.jpg");
+    background-size: cover;
+    background-position: 80% 60%;
+  }
+  > .background-kiaro-2 {
+    background-image: url("../../assets/images/projects/buddi/Kiaro-Buddi-2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   > .background-city {
     background-image: url("../../assets/images/projects/buddi/city-image.jpg");
-    background-size: cover;
-  }
-  > .background-nls {
-    background-image: url("../../assets/images/projects/buddi/nls-store.jpg");
-    background-size: cover;
-  }
-  > .background-plantlife {
-    background-image: url("../../assets/images/projects/buddi/plantlife-store.jpg");
     background-size: cover;
   }
   > .background-gradient {
