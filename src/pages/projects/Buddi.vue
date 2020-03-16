@@ -1,7 +1,7 @@
 <template>
   <layout>
     <div class="container">
-      <h1 class="margin-bottom-sm">Buddi - In-Store Kiosk</h1>
+      <h1 class="margin-bottom-sm">Buddi In-Store Kiosk</h1>
       <span class="separator"></span>
       <div class="columns-2">
         <div>
