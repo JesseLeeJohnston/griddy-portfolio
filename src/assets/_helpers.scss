@@ -13,6 +13,9 @@
   font-size: 0.8rem;
   line-height: 1.6rem;
 }
+.line-height-sm {
+  line-height: 1.2rem;
+}
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 0.125rem;
@@ -46,13 +49,53 @@
 .margin-bottom-lg {
   margin-bottom: 6rem;
 }
+.margin-bottom-xl {
+  margin-bottom: 10rem;
+}
 .is-marginless {
   margin: 0px;
 }
+.padding-all-sm {
+  padding: 1rem;
+}
+.padding-all-md {
+  padding: 2rem;
+}
+.padding-top-sm {
+  padding-top: 1rem;
+}
+.padding-top-md {
+  padding-top: 2rem;
+}
+.padding-top-lg {
+  padding-top: 3rem;
+}
+.padding-bottom-sm {
+  padding-bottom: 1rem;
+}
+.padding-bottom-md {
+  padding-bottom: 2rem;
+}
+.padding-bottom-lg {
+  padding-bottom: 3rem;
+}
+
 // MISC
 .rounded-corners {
   border-radius: 0.5rem;
 }
+.portfolio-border {
+  border: 0.5rem solid #ffffff;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.portfolio-border-dark {
+  border: 1.5rem solid var(--primary-brand);
+  background-color: var(--primary-brand);
+  box-sizing: border-box;
+}
+
 .hidden-sm {
   display: none;
 }
