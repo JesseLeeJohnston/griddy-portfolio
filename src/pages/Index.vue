@@ -3,9 +3,11 @@
     <div class="container">
       <div class="hero-text">
         <h1 class="special-heading margin-bottom-sm">Hi, I’m Jesse.</h1>
-        <h1
-          class="special-heading"
-        >I design and develop web applications that people find easy to use. I believe rapid prototyping and feedback cycles help achieve the best end product.</h1>
+        <h1 class="special-heading">
+          I design and develop web applications that people find easy to use. I
+          believe rapid prototyping and feedback cycles help achieve the best
+          end product.
+        </h1>
         <span class="separator"></span>
       </div>
       <project-grid />
@@ -27,21 +29,17 @@ export default {
         key: "description",
         name: "description",
         content:
-          "Jesse is a product designer based in Vancouver, BC. He's skilled in creating detailed designs, interactive prototypes and working with developments teams for implementation."
+          "Jesse is a product designer based in Vancouver, BC. He's skilled in creating detailed designs, interactive prototypes and working with developments teams for implementation.",
       },
-      {
-        name: "google-site-verification",
-        content: "lB4ywQJk_Jn4E-ViCLNbVqbMHblJhi4p2NJ_aQLm2_I"
-      }
-    ]
+    ],
   },
   components: {
     ProjectGrid,
-    anime
+    anime,
   },
   data() {
     return {
-      showNav: false
+      showNav: false,
     };
   },
   mounted() {
@@ -49,7 +47,7 @@ export default {
       targets: ".hero-text",
       translateY: [200, 0],
       opacity: [0, 1],
-      duration: 2000
+      duration: 2000,
     });
     anime({
       targets: ".separator",
@@ -57,9 +55,9 @@ export default {
       easing: "easeInOutQuad",
       direction: "alternate",
       delay: 200,
-      duration: 500
+      duration: 500,
     });
-  }
+  },
 };
 </script>
 

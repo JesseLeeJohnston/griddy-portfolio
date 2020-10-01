@@ -14,18 +14,10 @@ module.exports = {
       anchorClassName: "icon icon-link",
       plugins: [
         // ...global plugins
-      ]
-    }
+      ],
+    },
   },
   plugins: [
-    {
-      use: "gridsome-plugin-gtm",
-      options: {
-        id: "GTM-M4CXDR",
-        enabled: true,
-        debug: true
-      }
-    },
     {
       use: "@gridsome/source-filesystem",
       options: {
@@ -34,15 +26,15 @@ module.exports = {
         remark: {
           plugins: [
             // ...local plugins
-          ]
-        }
-      }
+          ],
+        },
+      },
     },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
-        publicPath: `/admin`
-      }
+        publicPath: `/admin`,
+      },
     },
     {
       use: "@gridsome/plugin-sitemap",
@@ -51,10 +43,10 @@ module.exports = {
         config: {
           "/blog/*": {
             changefreq: "weekly",
-            priority: 0.5
-          }
-        }
-      }
-    }
-  ]
+            priority: 0.5,
+          },
+        },
+      },
+    },
+  ],
 };
