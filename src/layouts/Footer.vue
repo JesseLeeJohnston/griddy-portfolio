@@ -14,10 +14,12 @@
     <div>
       <p class="text-small text-muted margin-top-sm">
         &copy; 2012 - 2020. Jessejohnston.co. This site was designed and
-        developed by me using Gridsome and deployed to Netlify. I also don't
-        consume digital cookies, no analytics or tracking here! Real cookies
-        though, I mean the good stuff with chocolate chips... Well that's
-        regularily consumed.
+        developed by me using Gridsome and deployed to Netlify.
+      </p>
+      <p class="text-small text-muted margin-top-sm">
+        I also don't consume digital cookies, no analytics or tracking here!
+        Real cookies though, I mean the good stuff with chocolate chips... Well
+        that's regularily consumed.
       </p>
     </div>
     <div class="footer-links">
