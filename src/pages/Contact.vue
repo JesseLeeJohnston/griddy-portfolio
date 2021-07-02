@@ -1,41 +1,30 @@
 <template>
   <layout>
- <div class="container">
-     <h2 class="text-center margin-bottom-xs">Contact me</h2>
-    <Panel>
-      <form 
-        name="contact"
-        method="post"
-        v-on:submit.prevent="handleSubmit"
-        action="/success/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
-          <div class="form-control">
-              <label for="name">Name</label>
-              <input type="text" name="name" placeholder="Mr. Jinx" autofocus v-model="formData.name" required>
-          </div>
-          <div class="form-control">
-              <label for="email">Email</label>
-              <input type="email" name="email" placeholder="cats@catsmania.com" v-model="formData.email" required>
-          </div>
-          <div class="form-control">
-              <label for="message">Message</label>
-              <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people." v-model="formData.message"></textarea>
-          </div>
-          <div class="form-control text-right">
-            <button type="submit" class="button primary">Submit form</button>
-          </div>
-      </form>
-    </Panel>
+    <div class="container">
+      <h2 class="text-center margin-bottom-xs">Contact me</h2>
+      <Panel>
+        <form 
+          method="post"
+          action="https://www.flexyform.com/f/bd698d2b98c378008cde661a455e19e0e8e1d4ee"
+        >
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Mr. Jinx" autofocus required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="cats@catsmania.com" required>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
+            </div>
+            <div class="form-control text-right">
+              <button type="submit" class="button primary">Submit form</button>
+            </div>
+        </form>
+      </Panel>
     </div>
-
   </layout>
 </template>
 <script>
@@ -51,33 +40,7 @@ export default {
   },
   components: {
       Panel
-  },
-  data() {
-  return {
-    formData: {},
   }
-},
-
-methods: {
-  encode(data) {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&')
-  },
-  handleSubmit(e) {
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: this.encode({
-        'form-name': e.target.getAttribute('name'),
-        ...this.formData,
-      }),
-    })
-    .then(() => this.$router.push('/success'))
-    .catch(error => alert(error))
-  }
-}
-
 };
 </script>
 <style lang="scss" scoped>
