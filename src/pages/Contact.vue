@@ -4,6 +4,7 @@
       <h2 class="text-center margin-bottom-xs">Contact me</h2>
       <Panel>
         <form 
+          id="contact-form"
           method="post"
           action="https://www.flexyform.com/f/bd698d2b98c378008cde661a455e19e0e8e1d4ee"
         >
@@ -20,7 +21,7 @@
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
             </div>
             <div class="form-control text-right">
-              <button type="submit" class="button primary">Submit form</button>
+              <button type="submit" class="button primary g-recaptcha" data-sitekey="6LeXWHobAAAAAGNpEnUWRG9vpGrI5a2mL1zX7iHz" data-callback="onSubmit" data-action="submit">Submit</button>
             </div>
         </form>
       </Panel>
@@ -40,7 +41,12 @@ export default {
   },
   components: {
       Panel
-  }
+  },
+  methods: {
+      onSubmit(token) {
+        document.getElementById("contact-form").submit();
+      }
+  },
 };
 </script>
 <style lang="scss" scoped>
