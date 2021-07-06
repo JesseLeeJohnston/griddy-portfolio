@@ -21,7 +21,7 @@
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Always looking forward to hearing from people."></textarea>
             </div>
             <div class="form-control text-right">
-              <button type="submit" class="button primary g-recaptcha" data-sitekey="6LeXWHobAAAAAGNpEnUWRG9vpGrI5a2mL1zX7iHz" data-callback="onSubmit" data-action="submit">Submit</button>
+              <button type="submit" class="button primary g-recaptcha" data-sitekey="6LeXWHobAAAAAGNpEnUWRG9vpGrI5a2mL1zX7iHz" data-callback="onSubmit" data-action="submit" @click="onSubmit">Submit</button>
             </div>
         </form>
       </Panel>
