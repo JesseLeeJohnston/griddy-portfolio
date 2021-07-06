@@ -9,8 +9,7 @@ export default function (Vue, { router, head, isClient }) {
 
 
   head.script.push({
-    src: 'https://www.google.com/recaptcha/api.js',
-    body: true
+    src: 'https://www.google.com/recaptcha/api.js'
   })
 
 }
