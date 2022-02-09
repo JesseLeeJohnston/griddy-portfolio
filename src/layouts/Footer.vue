@@ -27,6 +27,7 @@
       <g-link to="/about" class="text-sm">About Me</g-link>
       <g-link to="/blog" class="text-sm">Blog</g-link>
       <g-link to="/contact" class="text-sm">Contact</g-link>
+      <a href="https://seotesting.buddimenu.live" class="text-sm">Adding this link for testing (yes sometimes I use my portfolio to test things)...</a>
     </div>
   </div>
 </template>
